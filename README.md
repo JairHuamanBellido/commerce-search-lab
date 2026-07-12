@@ -4,7 +4,7 @@ Commerce Search Lab is a practical OpenSearch project for building e-commerce pr
 
 ## Current Milestone
 
-A user can search a seeded product catalog through the SvelteKit app, view initial products, and narrow results with brand/category facets backed by OpenSearch.
+A user can search a seeded product catalog through the SvelteKit app, view paginated products, and narrow results with brand/category facets backed by OpenSearch.
 
 ## Tech Stack
 
@@ -75,6 +75,7 @@ OpenSearch Dashboards uses `OPENSEARCH_DASHBOARDS_PORT` from `.env`.
 - `title^3`, `brand^2`, and `category^2` make product identity fields count more than description matches.
 - Brand and category facets use OpenSearch `terms` aggregations.
 - Selecting one or more facets reruns search with the current search term.
+- Pagination uses OpenSearch `from` and `size`, with 10 products per page.
 - The app shows loading, empty, and error states.
 
 ## Search Fields
