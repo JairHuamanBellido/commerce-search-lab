@@ -1,0 +1,202 @@
+[
+	{
+		"id": "prod-001",
+		"title": "Nike Pegasus Road Running Shoes",
+		"description": "Lightweight cushioned running shoes for daily road training and long walks.",
+		"category": "Shoes",
+		"brand": "Nike",
+		"price": 129.99,
+		"rating": 4.6,
+		"createdAt": "2026-01-05T10:00:00.000Z"
+	},
+	{
+		"id": "prod-002",
+		"title": "Adidas Ultraboost Running Shoes",
+		"description": "Responsive knit running shoes with strong energy return for city runners.",
+		"category": "Shoes",
+		"brand": "Adidas",
+		"price": 189.99,
+		"rating": 4.7,
+		"createdAt": "2026-01-07T10:00:00.000Z"
+	},
+	{
+		"id": "prod-003",
+		"title": "Sony WH-1000XM Wireless Headphones",
+		"description": "Noise-canceling wireless headphones with long battery life and clear calls.",
+		"category": "Audio",
+		"brand": "Sony",
+		"price": 349.99,
+		"rating": 4.8,
+		"createdAt": "2026-01-09T10:00:00.000Z"
+	},
+	{
+		"id": "prod-004",
+		"title": "Bose QuietComfort Wireless Headphones",
+		"description": "Comfortable wireless headphones with adjustable noise cancellation.",
+		"category": "Audio",
+		"brand": "Bose",
+		"price": 329.99,
+		"rating": 4.6,
+		"createdAt": "2026-01-11T10:00:00.000Z"
+	},
+	{
+		"id": "prod-005",
+		"title": "Breville Precision Coffee Maker",
+		"description": "Programmable drip coffee maker with thermal carafe and brew strength controls.",
+		"category": "Kitchen",
+		"brand": "Breville",
+		"price": 299.95,
+		"rating": 4.5,
+		"createdAt": "2026-01-13T10:00:00.000Z"
+	},
+	{
+		"id": "prod-006",
+		"title": "Ninja Hot and Iced Coffee Maker",
+		"description": "Versatile coffee maker for classic coffee, rich brew, iced coffee, and tea.",
+		"category": "Kitchen",
+		"brand": "Ninja",
+		"price": 179.99,
+		"rating": 4.4,
+		"createdAt": "2026-01-15T10:00:00.000Z"
+	},
+	{
+		"id": "prod-007",
+		"title": "Herschel Laptop Backpack",
+		"description": "Durable backpack with padded laptop sleeve and daily carry organization.",
+		"category": "Bags",
+		"brand": "Herschel",
+		"price": 89.99,
+		"rating": 4.3,
+		"createdAt": "2026-01-17T10:00:00.000Z"
+	},
+	{
+		"id": "prod-008",
+		"title": "North Face Commuter Laptop Backpack",
+		"description": "Water-resistant backpack with laptop compartment for work and travel.",
+		"category": "Bags",
+		"brand": "The North Face",
+		"price": 119.99,
+		"rating": 4.5,
+		"createdAt": "2026-01-19T10:00:00.000Z"
+	},
+	{
+		"id": "prod-009",
+		"title": "Apple MacBook Air 13-inch Laptop",
+		"description": "Thin laptop with fast Apple silicon, long battery life, and bright display.",
+		"category": "Computers",
+		"brand": "Apple",
+		"price": 1099,
+		"rating": 4.8,
+		"createdAt": "2026-01-21T10:00:00.000Z"
+	},
+	{
+		"id": "prod-010",
+		"title": "Dell XPS 13 Laptop",
+		"description": "Compact Windows laptop with premium display and lightweight aluminum body.",
+		"category": "Computers",
+		"brand": "Dell",
+		"price": 999.99,
+		"rating": 4.4,
+		"createdAt": "2026-01-23T10:00:00.000Z"
+	},
+	{
+		"id": "prod-011",
+		"title": "Logitech MX Master Wireless Mouse",
+		"description": "Ergonomic wireless mouse with fast scrolling and multi-device support.",
+		"category": "Accessories",
+		"brand": "Logitech",
+		"price": 99.99,
+		"rating": 4.7,
+		"createdAt": "2026-01-25T10:00:00.000Z"
+	},
+	{
+		"id": "prod-012",
+		"title": "Keychron K2 Mechanical Keyboard",
+		"description": "Compact wireless mechanical keyboard for Mac, Windows, and desk setups.",
+		"category": "Accessories",
+		"brand": "Keychron",
+		"price": 84.99,
+		"rating": 4.5,
+		"createdAt": "2026-01-27T10:00:00.000Z"
+	},
+	{
+		"id": "prod-013",
+		"title": "Samsung 27-inch 4K Monitor",
+		"description": "Sharp 4K monitor for productivity, streaming, and creative work.",
+		"category": "Monitors",
+		"brand": "Samsung",
+		"price": 279.99,
+		"rating": 4.4,
+		"createdAt": "2026-01-29T10:00:00.000Z"
+	},
+	{
+		"id": "prod-014",
+		"title": "LG UltraWide Productivity Monitor",
+		"description": "Wide monitor with extra horizontal space for multitasking and coding.",
+		"category": "Monitors",
+		"brand": "LG",
+		"price": 399.99,
+		"rating": 4.6,
+		"createdAt": "2026-01-31T10:00:00.000Z"
+	},
+	{
+		"id": "prod-015",
+		"title": "Instant Pot Multi-Use Pressure Cooker",
+		"description": "Electric pressure cooker for rice, soup, slow cooking, and meal prep.",
+		"category": "Kitchen",
+		"brand": "Instant Pot",
+		"price": 119.99,
+		"rating": 4.7,
+		"createdAt": "2026-02-02T10:00:00.000Z"
+	},
+	{
+		"id": "prod-016",
+		"title": "Patagonia Lightweight Rain Jacket",
+		"description": "Packable waterproof jacket for hiking, commuting, and travel.",
+		"category": "Clothing",
+		"brand": "Patagonia",
+		"price": 159.99,
+		"rating": 4.5,
+		"createdAt": "2026-02-04T10:00:00.000Z"
+	},
+	{
+		"id": "prod-017",
+		"title": "Columbia Fleece Hiking Jacket",
+		"description": "Warm fleece jacket for layering during outdoor walks and cold weather.",
+		"category": "Clothing",
+		"brand": "Columbia",
+		"price": 64.99,
+		"rating": 4.3,
+		"createdAt": "2026-02-06T10:00:00.000Z"
+	},
+	{
+		"id": "prod-018",
+		"title": "Garmin Forerunner GPS Running Watch",
+		"description": "GPS sports watch with heart rate, training metrics, and race tracking.",
+		"category": "Wearables",
+		"brand": "Garmin",
+		"price": 249.99,
+		"rating": 4.6,
+		"createdAt": "2026-02-08T10:00:00.000Z"
+	},
+	{
+		"id": "prod-019",
+		"title": "Fitbit Charge Fitness Tracker",
+		"description": "Slim fitness tracker with sleep tracking, heart rate, and workout stats.",
+		"category": "Wearables",
+		"brand": "Fitbit",
+		"price": 149.99,
+		"rating": 4.2,
+		"createdAt": "2026-02-10T10:00:00.000Z"
+	},
+	{
+		"id": "prod-020",
+		"title": "Yeti Stainless Steel Travel Mug",
+		"description": "Insulated travel mug that keeps coffee hot during commute or road trips.",
+		"category": "Drinkware",
+		"brand": "Yeti",
+		"price": 35,
+		"rating": 4.8,
+		"createdAt": "2026-02-12T10:00:00.000Z"
+	}
+]

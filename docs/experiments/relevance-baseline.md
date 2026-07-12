@@ -6,7 +6,7 @@ Track expected search results before tuning queries or mappings.
 
 ## Setup
 
-- OpenSearch API: `http://127.0.0.1:9201`
+- OpenSearch API: `http://127.0.0.1:9200`
 - Index: `products`
 - Dataset: seeded local catalog
 

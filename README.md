@@ -41,7 +41,26 @@ A user can search a seeded product catalog through OpenSearch using title, descr
 
 ## Local Setup
 
-TODO: add install, OpenSearch startup, seed, and dev commands.
+Install dependencies:
+
+```bash
+pnpm install
+```
+
+Start OpenSearch and OpenSearch Dashboards:
+
+```bash
+docker compose up -d
+```
+
+Seed products:
+
+```bash
+pnpm search:seed
+```
+
+OpenSearch API uses `OPENSEARCH_HTTP_PORT` from `.env`.
+OpenSearch Dashboards uses `OPENSEARCH_DASHBOARDS_PORT` from `.env`.
 
 ## Search Fields
 
