@@ -4,7 +4,7 @@ Commerce Search Lab is a practical OpenSearch project for building e-commerce pr
 
 ## Current Milestone
 
-A user can search a seeded product catalog through OpenSearch using title, description, category, and brand, with explicit mappings, repeatable local setup, and basic relevance checks.
+A user can search a seeded product catalog through the SvelteKit app, view initial products, and narrow results with brand/category facets backed by OpenSearch.
 
 ## Tech Stack
 
@@ -28,8 +28,9 @@ A user can search a seeded product catalog through OpenSearch using title, descr
 2. Create seeded product catalog.
 3. Define product search mapping.
 4. Ingest catalog into OpenSearch.
-5. Add basic search query.
-6. Add basic relevance checks.
+5. Add app search API client query.
+6. Add ecommerce search UI with facets.
+7. Add basic relevance checks.
 
 ## Documentation
 
@@ -37,7 +38,6 @@ A user can search a seeded product catalog through OpenSearch using title, descr
 - [Milestone 01 plan](docs/project/milestone-01-basic-product-search.md)
 - [ADR 0001: Product search mapping](docs/adr/0001-product-search-mapping.md)
 - [Relevance baseline](docs/experiments/relevance-baseline.md)
-- [Milestone 01 retrospective](docs/retrospectives/milestone-01-retro.md)
 
 ## Local Setup
 
@@ -53,14 +53,29 @@ Start OpenSearch and OpenSearch Dashboards:
 docker compose up -d
 ```
 
-Seed products:
+Seed 100 products:
 
 ```bash
 pnpm search:seed
 ```
 
+Run the app:
+
+```bash
+pnpm dev
+```
+
 OpenSearch API uses `OPENSEARCH_HTTP_PORT` from `.env`.
 OpenSearch Dashboards uses `OPENSEARCH_DASHBOARDS_PORT` from `.env`.
+
+## App Search Experience
+
+- Initial page load queries OpenSearch and shows product cards.
+- Search bar queries `title`, `brand`, `category`, and `description`.
+- `title^3`, `brand^2`, and `category^2` make product identity fields count more than description matches.
+- Brand and category facets use OpenSearch `terms` aggregations.
+- Selecting one or more facets reruns search with the current search term.
+- The app shows loading, empty, and error states.
 
 ## Search Fields
 
@@ -69,6 +84,15 @@ OpenSearch Dashboards uses `OPENSEARCH_DASHBOARDS_PORT` from `.env`.
 - `category`
 - `brand`
 
+## Implementation Evidence
+
+- UI orchestration: `src/routes/+page.svelte`
+- Search input: `src/lib/components/SearchBar.svelte`
+- Facets: `src/lib/components/FacetsPanel.svelte`
+- Product cards: `src/lib/components/ProductGrid.svelte`
+- OpenSearch request builder: `src/infrastructure/opensearch-client.ts`
+- Product/facet types: `src/lib/search/product.ts`
+
 ## Relevance Checks
 
-TODO: add 3-5 example queries with expected top results.
+See `docs/experiments/relevance-baseline.md`.

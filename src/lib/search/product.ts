@@ -9,3 +9,26 @@ export type Product = {
 	createdAt: string;
 };
 
+export type ProductFacetKey = 'brand' | 'category';
+
+export type ProductFacetBucket = {
+	key: string;
+	doc_count: number;
+};
+
+export type ProductFacets = Record<ProductFacetKey, ProductFacetBucket[]>;
+
+export type ProductSearchFilters = Partial<Record<ProductFacetKey, string[]>>;
+
+export type ProductSearchRequest = {
+	term: string;
+	filters: ProductSearchFilters;
+	from?: number;
+	size?: number;
+};
+
+export type ProductSearchResult = {
+	products: Product[];
+	total: number;
+	facets: ProductFacets;
+};

@@ -198,5 +198,805 @@
 		"price": 35,
 		"rating": 4.8,
 		"createdAt": "2026-02-12T10:00:00.000Z"
+	},
+	{
+		"id": "prod-021",
+		"title": "New Balance Fresh Foam Walking Sneakers",
+		"description": "Supportive walking sneakers for errands, travel days, and light workouts.",
+		"category": "Shoes",
+		"brand": "New Balance",
+		"price": 109.99,
+		"rating": 4.4,
+		"createdAt": "2026-02-14T10:00:00.000Z"
+	},
+	{
+		"id": "prod-022",
+		"title": "Asics Gel-Cumulus Training Shoes",
+		"description": "Balanced training shoes with soft cushioning for gym and treadmill sessions.",
+		"category": "Shoes",
+		"brand": "Asics",
+		"price": 119.99,
+		"rating": 4.5,
+		"createdAt": "2026-02-16T10:00:00.000Z"
+	},
+	{
+		"id": "prod-023",
+		"title": "Hoka Clifton Everyday Sneakers",
+		"description": "Plush everyday sneakers made for long shifts and high-mileage walking.",
+		"category": "Shoes",
+		"brand": "Hoka",
+		"price": 144.99,
+		"rating": 4.6,
+		"createdAt": "2026-02-18T10:00:00.000Z"
+	},
+	{
+		"id": "prod-024",
+		"title": "Brooks Ghost Stability Running Shoes",
+		"description": "Reliable running shoes with smooth support for daily miles.",
+		"category": "Shoes",
+		"brand": "Brooks",
+		"price": 139.99,
+		"rating": 4.7,
+		"createdAt": "2026-02-20T10:00:00.000Z"
+	},
+	{
+		"id": "prod-025",
+		"title": "JBL Flip Bluetooth Speaker",
+		"description": "Portable Bluetooth speaker with punchy sound for rooms, parks, and patios.",
+		"category": "Audio",
+		"brand": "JBL",
+		"price": 89.95,
+		"rating": 4.4,
+		"createdAt": "2026-02-22T10:00:00.000Z"
+	},
+	{
+		"id": "prod-026",
+		"title": "Sennheiser Momentum Studio Headphones",
+		"description": "Detailed studio-style headphones for focused listening and editing.",
+		"category": "Audio",
+		"brand": "Sennheiser",
+		"price": 249.95,
+		"rating": 4.6,
+		"createdAt": "2026-02-24T10:00:00.000Z"
+	},
+	{
+		"id": "prod-027",
+		"title": "Apple AirPods Wireless Earbuds",
+		"description": "Compact wireless earbuds with quick pairing and clear voice calls.",
+		"category": "Audio",
+		"brand": "Apple",
+		"price": 179,
+		"rating": 4.7,
+		"createdAt": "2026-02-26T10:00:00.000Z"
+	},
+	{
+		"id": "prod-028",
+		"title": "Anker Soundcore Workout Earbuds",
+		"description": "Sweat-resistant earbuds with secure fit and long workout battery life.",
+		"category": "Audio",
+		"brand": "Anker",
+		"price": 79.99,
+		"rating": 4.3,
+		"createdAt": "2026-02-28T10:00:00.000Z"
+	},
+	{
+		"id": "prod-029",
+		"title": "KitchenAid Artisan Stand Mixer",
+		"description": "Countertop mixer for dough, batters, whipped cream, and baking prep.",
+		"category": "Kitchen",
+		"brand": "KitchenAid",
+		"price": 449.99,
+		"rating": 4.8,
+		"createdAt": "2026-03-02T10:00:00.000Z"
+	},
+	{
+		"id": "prod-030",
+		"title": "Cuisinart Food Processor",
+		"description": "Food processor for chopping, slicing, shredding, and sauce prep.",
+		"category": "Kitchen",
+		"brand": "Cuisinart",
+		"price": 149.99,
+		"rating": 4.4,
+		"createdAt": "2026-03-04T10:00:00.000Z"
+	},
+	{
+		"id": "prod-031",
+		"title": "OXO Chef Knife Set",
+		"description": "Sharp kitchen knife set with comfortable handles for daily prep.",
+		"category": "Kitchen",
+		"brand": "OXO",
+		"price": 129.99,
+		"rating": 4.5,
+		"createdAt": "2026-03-06T10:00:00.000Z"
+	},
+	{
+		"id": "prod-032",
+		"title": "Vitamix Immersion Blender",
+		"description": "Hand blender for soups, smoothies, sauces, and quick purees.",
+		"category": "Kitchen",
+		"brand": "Vitamix",
+		"price": 149.95,
+		"rating": 4.5,
+		"createdAt": "2026-03-08T10:00:00.000Z"
+	},
+	{
+		"id": "prod-033",
+		"title": "Patagonia Black Hole Travel Duffel Bag",
+		"description": "Weather-resistant duffel for road trips, gym sessions, and weekend travel.",
+		"category": "Bags",
+		"brand": "Patagonia",
+		"price": 159,
+		"rating": 4.7,
+		"createdAt": "2026-03-10T10:00:00.000Z"
+	},
+	{
+		"id": "prod-034",
+		"title": "Timbuk2 Classic Commuter Messenger Bag",
+		"description": "Messenger bag with laptop storage for bike commutes and office days.",
+		"category": "Bags",
+		"brand": "Timbuk2",
+		"price": 129,
+		"rating": 4.4,
+		"createdAt": "2026-03-12T10:00:00.000Z"
+	},
+	{
+		"id": "prod-035",
+		"title": "Osprey Daylite Hiking Daypack",
+		"description": "Light daypack with breathable straps for hikes and city exploring.",
+		"category": "Bags",
+		"brand": "Osprey",
+		"price": 74.95,
+		"rating": 4.6,
+		"createdAt": "2026-03-14T10:00:00.000Z"
+	},
+	{
+		"id": "prod-036",
+		"title": "Bellroy Tokyo Carry-On Tote",
+		"description": "Structured tote with internal organization for laptop and travel gear.",
+		"category": "Bags",
+		"brand": "Bellroy",
+		"price": 179,
+		"rating": 4.5,
+		"createdAt": "2026-03-16T10:00:00.000Z"
+	},
+	{
+		"id": "prod-037",
+		"title": "Lenovo ThinkPad Business Laptop",
+		"description": "Durable business laptop with strong keyboard and security features.",
+		"category": "Computers",
+		"brand": "Lenovo",
+		"price": 1249,
+		"rating": 4.6,
+		"createdAt": "2026-03-18T10:00:00.000Z"
+	},
+	{
+		"id": "prod-038",
+		"title": "HP Spectre Convertible Laptop",
+		"description": "Convertible laptop with touch display for notes, browsing, and presentations.",
+		"category": "Computers",
+		"brand": "HP",
+		"price": 1199.99,
+		"rating": 4.5,
+		"createdAt": "2026-03-20T10:00:00.000Z"
+	},
+	{
+		"id": "prod-039",
+		"title": "Asus ROG Gaming Laptop",
+		"description": "Gaming laptop with fast graphics for esports and creative workloads.",
+		"category": "Computers",
+		"brand": "Asus",
+		"price": 1499.99,
+		"rating": 4.6,
+		"createdAt": "2026-03-22T10:00:00.000Z"
+	},
+	{
+		"id": "prod-040",
+		"title": "Acer Swift Ultrabook Laptop",
+		"description": "Lightweight laptop for students, travel, and everyday productivity.",
+		"category": "Computers",
+		"brand": "Acer",
+		"price": 799.99,
+		"rating": 4.3,
+		"createdAt": "2026-03-24T10:00:00.000Z"
+	},
+	{
+		"id": "prod-041",
+		"title": "Anker USB-C Hub",
+		"description": "Compact hub with HDMI, USB, and card ports for laptop workstations.",
+		"category": "Accessories",
+		"brand": "Anker",
+		"price": 49.99,
+		"rating": 4.5,
+		"createdAt": "2026-03-26T10:00:00.000Z"
+	},
+	{
+		"id": "prod-042",
+		"title": "Belkin BoostCharge Fast Wall Charger",
+		"description": "Fast USB-C wall charger for phones, tablets, and small laptops.",
+		"category": "Accessories",
+		"brand": "Belkin",
+		"price": 34.99,
+		"rating": 4.4,
+		"createdAt": "2026-03-28T10:00:00.000Z"
+	},
+	{
+		"id": "prod-043",
+		"title": "Razer Basilisk Gaming Mouse",
+		"description": "Gaming mouse with precise sensor and programmable buttons.",
+		"category": "Accessories",
+		"brand": "Razer",
+		"price": 69.99,
+		"rating": 4.5,
+		"createdAt": "2026-03-30T10:00:00.000Z"
+	},
+	{
+		"id": "prod-044",
+		"title": "SteelSeries QcK Gaming Mouse Pad",
+		"description": "Large cloth mouse pad with steady tracking for work and games.",
+		"category": "Accessories",
+		"brand": "SteelSeries",
+		"price": 19.99,
+		"rating": 4.6,
+		"createdAt": "2026-04-01T10:00:00.000Z"
+	},
+	{
+		"id": "prod-045",
+		"title": "Dell UltraSharp USB-C Docking Monitor",
+		"description": "USB-C monitor with crisp display and single-cable laptop docking.",
+		"category": "Monitors",
+		"brand": "Dell",
+		"price": 549.99,
+		"rating": 4.6,
+		"createdAt": "2026-04-03T10:00:00.000Z"
+	},
+	{
+		"id": "prod-046",
+		"title": "BenQ Designer 4K Monitor",
+		"description": "Color-focused 4K monitor for design, photography, and video work.",
+		"category": "Monitors",
+		"brand": "BenQ",
+		"price": 649.99,
+		"rating": 4.5,
+		"createdAt": "2026-04-05T10:00:00.000Z"
+	},
+	{
+		"id": "prod-047",
+		"title": "Asus TUF Gaming Monitor",
+		"description": "High-refresh gaming monitor for smooth competitive play.",
+		"category": "Monitors",
+		"brand": "Asus",
+		"price": 299.99,
+		"rating": 4.4,
+		"createdAt": "2026-04-07T10:00:00.000Z"
+	},
+	{
+		"id": "prod-048",
+		"title": "AOC Budget IPS Monitor",
+		"description": "Affordable IPS monitor for home office and school setups.",
+		"category": "Monitors",
+		"brand": "AOC",
+		"price": 149.99,
+		"rating": 4.2,
+		"createdAt": "2026-04-09T10:00:00.000Z"
+	},
+	{
+		"id": "prod-049",
+		"title": "Nike Dri-FIT Running Shirt",
+		"description": "Lightweight running shirt that wicks sweat during warm workouts.",
+		"category": "Clothing",
+		"brand": "Nike",
+		"price": 34.99,
+		"rating": 4.4,
+		"createdAt": "2026-04-11T10:00:00.000Z"
+	},
+	{
+		"id": "prod-050",
+		"title": "Adidas Performance Hoodie",
+		"description": "Soft athletic hoodie for warmups, travel, and casual layering.",
+		"category": "Clothing",
+		"brand": "Adidas",
+		"price": 64.99,
+		"rating": 4.5,
+		"createdAt": "2026-04-13T10:00:00.000Z"
+	},
+	{
+		"id": "prod-051",
+		"title": "Uniqlo Cotton Chino Pants",
+		"description": "Clean chino pants for work, travel, and everyday outfits.",
+		"category": "Clothing",
+		"brand": "Uniqlo",
+		"price": 49.9,
+		"rating": 4.3,
+		"createdAt": "2026-04-15T10:00:00.000Z"
+	},
+	{
+		"id": "prod-052",
+		"title": "Carhartt Softshell Work Jacket",
+		"description": "Durable softshell jacket with practical pockets for cool weather.",
+		"category": "Clothing",
+		"brand": "Carhartt",
+		"price": 119.99,
+		"rating": 4.5,
+		"createdAt": "2026-04-17T10:00:00.000Z"
+	},
+	{
+		"id": "prod-053",
+		"title": "Apple Watch Series Smartwatch",
+		"description": "Smartwatch with activity rings, notifications, and health sensors.",
+		"category": "Wearables",
+		"brand": "Apple",
+		"price": 399,
+		"rating": 4.8,
+		"createdAt": "2026-04-19T10:00:00.000Z"
+	},
+	{
+		"id": "prod-054",
+		"title": "Samsung Galaxy Smartwatch",
+		"description": "Android-friendly smartwatch with fitness tracking and bright display.",
+		"category": "Wearables",
+		"brand": "Samsung",
+		"price": 299.99,
+		"rating": 4.5,
+		"createdAt": "2026-04-21T10:00:00.000Z"
+	},
+	{
+		"id": "prod-055",
+		"title": "Polar H10 Heart Rate Monitor",
+		"description": "Accurate chest strap heart rate monitor for training sessions.",
+		"category": "Wearables",
+		"brand": "Polar",
+		"price": 89.95,
+		"rating": 4.6,
+		"createdAt": "2026-04-23T10:00:00.000Z"
+	},
+	{
+		"id": "prod-056",
+		"title": "Amazfit Balance Fitness Watch",
+		"description": "Light smartwatch with sleep metrics, workouts, and long battery life.",
+		"category": "Wearables",
+		"brand": "Amazfit",
+		"price": 229.99,
+		"rating": 4.3,
+		"createdAt": "2026-04-25T10:00:00.000Z"
+	},
+	{
+		"id": "prod-057",
+		"title": "Stanley Quencher Tumbler with Straw",
+		"description": "Large insulated tumbler with handle and straw for all-day hydration.",
+		"category": "Drinkware",
+		"brand": "Stanley",
+		"price": 45,
+		"rating": 4.7,
+		"createdAt": "2026-04-27T10:00:00.000Z"
+	},
+	{
+		"id": "prod-058",
+		"title": "Hydro Flask Insulated Water Bottle",
+		"description": "Durable bottle that keeps drinks cold during gym and travel days.",
+		"category": "Drinkware",
+		"brand": "Hydro Flask",
+		"price": 39.95,
+		"rating": 4.8,
+		"createdAt": "2026-04-29T10:00:00.000Z"
+	},
+	{
+		"id": "prod-059",
+		"title": "Contigo Leakproof Coffee Cup",
+		"description": "Leakproof travel cup for coffee during commutes and meetings.",
+		"category": "Drinkware",
+		"brand": "Contigo",
+		"price": 24.99,
+		"rating": 4.4,
+		"createdAt": "2026-05-01T10:00:00.000Z"
+	},
+	{
+		"id": "prod-060",
+		"title": "Klean Kanteen Camp Mug",
+		"description": "Reusable insulated camp mug for coffee, tea, and outdoor mornings.",
+		"category": "Drinkware",
+		"brand": "Klean Kanteen",
+		"price": 29.95,
+		"rating": 4.5,
+		"createdAt": "2026-05-03T10:00:00.000Z"
+	},
+	{
+		"id": "prod-061",
+		"title": "Nike Metcon Training Shoes",
+		"description": "Stable training shoes for lifting, circuits, and gym classes.",
+		"category": "Shoes",
+		"brand": "Nike",
+		"price": 129.99,
+		"rating": 4.5,
+		"createdAt": "2026-05-05T10:00:00.000Z"
+	},
+	{
+		"id": "prod-062",
+		"title": "Adidas Terrex Hiking Shoes",
+		"description": "Grippy hiking shoes for trails, wet paths, and weekend adventures.",
+		"category": "Shoes",
+		"brand": "Adidas",
+		"price": 139.99,
+		"rating": 4.4,
+		"createdAt": "2026-05-07T10:00:00.000Z"
+	},
+	{
+		"id": "prod-063",
+		"title": "New Balance Lightweight Racing Shoes",
+		"description": "Fast lightweight shoes for tempo runs, workouts, and race day.",
+		"category": "Shoes",
+		"brand": "New Balance",
+		"price": 159.99,
+		"rating": 4.6,
+		"createdAt": "2026-05-09T10:00:00.000Z"
+	},
+	{
+		"id": "prod-064",
+		"title": "Asics Court Sneakers",
+		"description": "Clean court sneakers with comfortable support for casual wear.",
+		"category": "Shoes",
+		"brand": "Asics",
+		"price": 84.99,
+		"rating": 4.2,
+		"createdAt": "2026-05-11T10:00:00.000Z"
+	},
+	{
+		"id": "prod-065",
+		"title": "Sony Portable Soundbar",
+		"description": "Compact soundbar for clearer TV audio in apartments and bedrooms.",
+		"category": "Audio",
+		"brand": "Sony",
+		"price": 199.99,
+		"rating": 4.4,
+		"createdAt": "2026-05-13T10:00:00.000Z"
+	},
+	{
+		"id": "prod-066",
+		"title": "Bose Home Theater Speaker",
+		"description": "Room-filling speaker for movies, music, and voice assistants.",
+		"category": "Audio",
+		"brand": "Bose",
+		"price": 299,
+		"rating": 4.6,
+		"createdAt": "2026-05-15T10:00:00.000Z"
+	},
+	{
+		"id": "prod-067",
+		"title": "JBL Open-Ear Headphones",
+		"description": "Open-ear headphones for awareness during runs and commutes.",
+		"category": "Audio",
+		"brand": "JBL",
+		"price": 129.95,
+		"rating": 4.3,
+		"createdAt": "2026-05-17T10:00:00.000Z"
+	},
+	{
+		"id": "prod-068",
+		"title": "Sennheiser Compact Earbuds",
+		"description": "Small earbuds with balanced sound for calls, podcasts, and music.",
+		"category": "Audio",
+		"brand": "Sennheiser",
+		"price": 149.95,
+		"rating": 4.4,
+		"createdAt": "2026-05-19T10:00:00.000Z"
+	},
+	{
+		"id": "prod-069",
+		"title": "Breville Electric Kettle",
+		"description": "Temperature-control kettle for tea, pour-over coffee, and hot water.",
+		"category": "Kitchen",
+		"brand": "Breville",
+		"price": 129.95,
+		"rating": 4.7,
+		"createdAt": "2026-05-21T10:00:00.000Z"
+	},
+	{
+		"id": "prod-070",
+		"title": "Ninja Toaster Oven",
+		"description": "Compact toaster oven for snacks, reheating, and small-batch meals.",
+		"category": "Kitchen",
+		"brand": "Ninja",
+		"price": 159.99,
+		"rating": 4.4,
+		"createdAt": "2026-05-23T10:00:00.000Z"
+	},
+	{
+		"id": "prod-071",
+		"title": "Instant Pot Cold Brew Maker",
+		"description": "Cold brew maker for smooth coffee concentrate at home.",
+		"category": "Kitchen",
+		"brand": "Instant Pot",
+		"price": 39.99,
+		"rating": 4.2,
+		"createdAt": "2026-05-25T10:00:00.000Z"
+	},
+	{
+		"id": "prod-072",
+		"title": "KitchenAid Hand Mixer",
+		"description": "Hand mixer for quick baking prep and small kitchen tasks.",
+		"category": "Kitchen",
+		"brand": "KitchenAid",
+		"price": 59.99,
+		"rating": 4.5,
+		"createdAt": "2026-05-27T10:00:00.000Z"
+	},
+	{
+		"id": "prod-073",
+		"title": "Herschel Roll-Top Backpack",
+		"description": "Roll-top backpack with laptop storage and weather-ready fabric.",
+		"category": "Bags",
+		"brand": "Herschel",
+		"price": 109.99,
+		"rating": 4.4,
+		"createdAt": "2026-05-29T10:00:00.000Z"
+	},
+	{
+		"id": "prod-074",
+		"title": "The North Face Base Camp Duffel Bag",
+		"description": "Rugged duffel with backpack straps for travel and gear hauling.",
+		"category": "Bags",
+		"brand": "The North Face",
+		"price": 149,
+		"rating": 4.7,
+		"createdAt": "2026-05-31T10:00:00.000Z"
+	},
+	{
+		"id": "prod-075",
+		"title": "Patagonia Crossbody Organizer",
+		"description": "Small crossbody bag for phone, wallet, keys, and daily essentials.",
+		"category": "Bags",
+		"brand": "Patagonia",
+		"price": 69,
+		"rating": 4.3,
+		"createdAt": "2026-06-02T10:00:00.000Z"
+	},
+	{
+		"id": "prod-076",
+		"title": "Timbuk2 Packing Cube Set",
+		"description": "Packing cubes that organize clothing inside suitcases and duffels.",
+		"category": "Bags",
+		"brand": "Timbuk2",
+		"price": 44.99,
+		"rating": 4.5,
+		"createdAt": "2026-06-04T10:00:00.000Z"
+	},
+	{
+		"id": "prod-077",
+		"title": "Apple Mac Mini Desktop Computer",
+		"description": "Compact desktop computer for home offices, media, and development.",
+		"category": "Computers",
+		"brand": "Apple",
+		"price": 699,
+		"rating": 4.7,
+		"createdAt": "2026-06-06T10:00:00.000Z"
+	},
+	{
+		"id": "prod-078",
+		"title": "Dell All-in-One Desktop",
+		"description": "All-in-one desktop with large display for home and office work.",
+		"category": "Computers",
+		"brand": "Dell",
+		"price": 899.99,
+		"rating": 4.4,
+		"createdAt": "2026-06-08T10:00:00.000Z"
+	},
+	{
+		"id": "prod-079",
+		"title": "Lenovo Chromebook Laptop",
+		"description": "Simple Chromebook for browsing, documents, and classroom use.",
+		"category": "Computers",
+		"brand": "Lenovo",
+		"price": 349.99,
+		"rating": 4.2,
+		"createdAt": "2026-06-10T10:00:00.000Z"
+	},
+	{
+		"id": "prod-080",
+		"title": "HP Creator Laptop",
+		"description": "Creator laptop with strong display for photo, video, and design projects.",
+		"category": "Computers",
+		"brand": "HP",
+		"price": 1399.99,
+		"rating": 4.5,
+		"createdAt": "2026-06-12T10:00:00.000Z"
+	},
+	{
+		"id": "prod-081",
+		"title": "Logitech Brio Desk Webcam",
+		"description": "Sharp webcam for remote meetings, streaming, and online classes.",
+		"category": "Accessories",
+		"brand": "Logitech",
+		"price": 129.99,
+		"rating": 4.5,
+		"createdAt": "2026-06-14T10:00:00.000Z"
+	},
+	{
+		"id": "prod-082",
+		"title": "Keychron K3 Mechanical Keyboard",
+		"description": "Low-profile mechanical keyboard for compact desk setups.",
+		"category": "Accessories",
+		"brand": "Keychron",
+		"price": 94.99,
+		"rating": 4.6,
+		"createdAt": "2026-06-16T10:00:00.000Z"
+	},
+	{
+		"id": "prod-083",
+		"title": "Anker Portable SSD",
+		"description": "Fast external SSD for backups, media projects, and travel files.",
+		"category": "Accessories",
+		"brand": "Anker",
+		"price": 119.99,
+		"rating": 4.4,
+		"createdAt": "2026-06-18T10:00:00.000Z"
+	},
+	{
+		"id": "prod-084",
+		"title": "Belkin Cable Organizer Kit",
+		"description": "Cable clips and straps for cleaner desks and travel pouches.",
+		"category": "Accessories",
+		"brand": "Belkin",
+		"price": 19.99,
+		"rating": 4.2,
+		"createdAt": "2026-06-20T10:00:00.000Z"
+	},
+	{
+		"id": "prod-085",
+		"title": "Samsung Curved Productivity Monitor",
+		"description": "Curved monitor with wide workspace for spreadsheets and multitasking.",
+		"category": "Monitors",
+		"brand": "Samsung",
+		"price": 329.99,
+		"rating": 4.5,
+		"createdAt": "2026-06-22T10:00:00.000Z"
+	},
+	{
+		"id": "prod-086",
+		"title": "LG Portable Monitor",
+		"description": "Slim portable monitor for laptop users who need a second screen.",
+		"category": "Monitors",
+		"brand": "LG",
+		"price": 229.99,
+		"rating": 4.4,
+		"createdAt": "2026-06-24T10:00:00.000Z"
+	},
+	{
+		"id": "prod-087",
+		"title": "Dell QHD Office Monitor",
+		"description": "QHD office monitor with adjustable stand and clean text rendering.",
+		"category": "Monitors",
+		"brand": "Dell",
+		"price": 289.99,
+		"rating": 4.5,
+		"createdAt": "2026-06-26T10:00:00.000Z"
+	},
+	{
+		"id": "prod-088",
+		"title": "BenQ Mini LED Monitor",
+		"description": "Bright mini LED monitor for HDR content and creative workflows.",
+		"category": "Monitors",
+		"brand": "BenQ",
+		"price": 899.99,
+		"rating": 4.6,
+		"createdAt": "2026-06-28T10:00:00.000Z"
+	},
+	{
+		"id": "prod-089",
+		"title": "Patagonia Insulated Vest",
+		"description": "Warm vest for layering over shirts and under winter jackets.",
+		"category": "Clothing",
+		"brand": "Patagonia",
+		"price": 139,
+		"rating": 4.6,
+		"createdAt": "2026-06-30T10:00:00.000Z"
+	},
+	{
+		"id": "prod-090",
+		"title": "Columbia Trail Shorts",
+		"description": "Quick-dry trail shorts with pockets for hiking and travel.",
+		"category": "Clothing",
+		"brand": "Columbia",
+		"price": 39.99,
+		"rating": 4.3,
+		"createdAt": "2026-07-02T10:00:00.000Z"
+	},
+	{
+		"id": "prod-091",
+		"title": "Nike Travel Pants",
+		"description": "Stretch travel pants with clean style and easy movement.",
+		"category": "Clothing",
+		"brand": "Nike",
+		"price": 89.99,
+		"rating": 4.4,
+		"createdAt": "2026-07-04T10:00:00.000Z"
+	},
+	{
+		"id": "prod-092",
+		"title": "Adidas Merino Base Layer",
+		"description": "Soft base layer for cold runs, hikes, and winter commuting.",
+		"category": "Clothing",
+		"brand": "Adidas",
+		"price": 79.99,
+		"rating": 4.5,
+		"createdAt": "2026-07-06T10:00:00.000Z"
+	},
+	{
+		"id": "prod-093",
+		"title": "Garmin Outdoor Adventure Watch",
+		"description": "Rugged GPS watch with navigation, training metrics, and long battery.",
+		"category": "Wearables",
+		"brand": "Garmin",
+		"price": 499.99,
+		"rating": 4.7,
+		"createdAt": "2026-07-08T10:00:00.000Z"
+	},
+	{
+		"id": "prod-094",
+		"title": "Fitbit Inspire Fitness Tracker",
+		"description": "Slim tracker for steps, sleep, workouts, and daily activity goals.",
+		"category": "Wearables",
+		"brand": "Fitbit",
+		"price": 99.95,
+		"rating": 4.3,
+		"createdAt": "2026-07-10T10:00:00.000Z"
+	},
+	{
+		"id": "prod-095",
+		"title": "Apple Kids Fitness Watch",
+		"description": "Family-friendly smartwatch setup for activity tracking and messaging.",
+		"category": "Wearables",
+		"brand": "Apple",
+		"price": 249,
+		"rating": 4.4,
+		"createdAt": "2026-07-12T10:00:00.000Z"
+	},
+	{
+		"id": "prod-096",
+		"title": "Samsung Recovery Band",
+		"description": "Light wearable band for recovery tracking and daily health metrics.",
+		"category": "Wearables",
+		"brand": "Samsung",
+		"price": 149.99,
+		"rating": 4.2,
+		"createdAt": "2026-07-14T10:00:00.000Z"
+	},
+	{
+		"id": "prod-097",
+		"title": "Yeti Rambler Sports Bottle",
+		"description": "Durable sports bottle with chug cap for gym and outdoor use.",
+		"category": "Drinkware",
+		"brand": "Yeti",
+		"price": 40,
+		"rating": 4.8,
+		"createdAt": "2026-07-16T10:00:00.000Z"
+	},
+	{
+		"id": "prod-098",
+		"title": "Stanley Classic Vacuum Food Jar",
+		"description": "Insulated food jar for soups, lunches, and outdoor meals.",
+		"category": "Drinkware",
+		"brand": "Stanley",
+		"price": 35,
+		"rating": 4.5,
+		"createdAt": "2026-07-18T10:00:00.000Z"
+	},
+	{
+		"id": "prod-099",
+		"title": "Hydro Flask Ceramic Travel Cup",
+		"description": "Ceramic-lined travel cup for better-tasting coffee on the go.",
+		"category": "Drinkware",
+		"brand": "Hydro Flask",
+		"price": 32.95,
+		"rating": 4.4,
+		"createdAt": "2026-07-20T10:00:00.000Z"
+	},
+	{
+		"id": "prod-100",
+		"title": "Contigo Filtered Water Bottle",
+		"description": "Filtered bottle for cleaner-tasting water at work, school, and travel.",
+		"category": "Drinkware",
+		"brand": "Contigo",
+		"price": 29.99,
+		"rating": 4.3,
+		"createdAt": "2026-07-22T10:00:00.000Z"
 	}
 ]
