@@ -6,11 +6,13 @@ Build an e-commerce product search lab using SvelteKit, TypeScript, and OpenSear
 
 The project builds practical search engineering judgment through explicit mappings, seeded catalog data, lexical queries, facets, sorting, and basic relevance checks.
 
-## Current Milestone: Basic Product Search
+## Current Milestone: Measured Lexical Relevance
 
-A user can search a seeded product catalog through the SvelteKit app, view paginated results, and narrow results with brand/category facets backed by OpenSearch.
+A developer can improve search quality from the SvelteKit app by checking real query behavior, sorting results, and documenting relevance observations manually.
 
 ## Current Status
+
+Milestone 1 completed:
 
 Completed:
 
@@ -25,28 +27,62 @@ Completed:
 - [x] Brand/category facets search with the current search term.
 - [x] Pagination shows 10 products per page.
 - [x] Loading, empty, and error states added.
+- [x] Baseline actual top results and scores recorded.
+- [x] Baseline pass/fail notes written.
 
 In progress:
 
-- [x] Relevance baseline document.
-- [x] Baseline actual results recorded from local OpenSearch.
+- [ ] Add sort controls for price, rating, and newest.
+- [ ] Document relevance observations from the web app.
 
 ## Next Steps
 
-1. Run the app against seeded OpenSearch.
-2. Test sample queries:
-   - `running shoes`
-   - `nike`
-   - `laptop`
-   - `coffee maker`
-   - `laptop backpack`
-3. Record expected vs actual top results in `docs/experiments/relevance-baseline.md`.
-4. Test facet combinations, especially brand + category with a search term.
-5. Smoke test pagination with search terms and facet selections.
-6. Add sort controls for price/rating/newest.
-7. Adjust field boosts only after baseline evidence exists.
+1. Record actual top 5 results and pass/fail notes for baseline queries in `docs/experiments/relevance-baseline.md`.
+2. Add sort controls for price ascending, price descending, rating descending, and newest.
+3. Use the SvelteKit app to review fixed queries and note ranking observations manually.
+4. Tune field boosts one change at a time only after visible app behavior shows a ranking issue.
+5. Add typo checks for `nik shoes`, `cofee maker`, and `wireles headphones`.
+6. Draft an analyzer and synonym ADR for future mapping changes.
+7. Keep create-index and seed-data scripts as the only project scripts needed for search setup.
 
-## Milestone Checklist
+## Milestone 2 Checklist
+
+### 1. Baseline Completion
+
+- [x] Actual top results are recorded for each baseline query.
+- [x] Search scores are captured for top results.
+- [x] Pass/fail notes explain ranking mismatches.
+
+### 2. Sort Controls
+
+- [ ] Sort by relevance remains the default.
+- [ ] Sort by price ascending works.
+- [ ] Sort by price descending works.
+- [ ] Sort by rating descending works.
+- [ ] Sort by newest works.
+- [ ] Sort state works with search terms, facets, and pagination.
+
+### 3. Web App Relevance Review
+
+- [ ] Fixed query checklist exists.
+- [ ] Query results are reviewed through the SvelteKit app.
+- [ ] Notes capture expected products, actual products, and ranking issues.
+- [ ] No extra evaluation script is required for this milestone.
+
+### 4. Lexical Ranking Experiments
+
+- [ ] First boost tuning experiment is documented.
+- [ ] Before/after ranking changes are checked through the app.
+- [ ] Query changes are based on observed search behavior, not intuition-only.
+
+### 5. OpenSearch IR Learning
+
+- [ ] Typo behavior is tested with fuzziness enabled.
+- [ ] Analyzer options are documented.
+- [ ] Synonym candidates are documented.
+- [ ] Explain API remains optional for deeper debugging.
+
+## Milestone 1 Checklist
 
 ### 1. Local OpenSearch Setup
 
@@ -117,6 +153,7 @@ In progress:
 ## Experiments
 
 - Baseline relevance: `docs/experiments/relevance-baseline.md`
+- Milestone 2 plan: `docs/project/milestone-02-measured-lexical-relevance.md`
 
 ## Done When
 
