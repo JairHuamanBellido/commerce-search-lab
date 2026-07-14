@@ -32,8 +32,8 @@ Completed:
 
 In progress:
 
-- [ ] Add sort controls for price, rating, and newest.
-- [ ] Document relevance observations from the web app.
+- [x] Add sort controls for price, rating, and newest.
+- [x] Document relevance observations from the web app.
 
 ## Next Steps
 
@@ -55,19 +55,19 @@ In progress:
 
 ### 2. Sort Controls
 
-- [ ] Sort by relevance remains the default.
-- [ ] Sort by price ascending works.
-- [ ] Sort by price descending works.
-- [ ] Sort by rating descending works.
-- [ ] Sort by newest works.
-- [ ] Sort state works with search terms, facets, and pagination.
+- [x] Sort by relevance remains the default.
+- [x] Sort by price ascending works.
+- [x] Sort by price descending works.
+- [x] Sort by rating descending works.
+- [x] Sort by newest works.
+- [x] Sort state works with search terms, facets, and pagination.
 
 ### 3. Web App Relevance Review
 
-- [ ] Fixed query checklist exists.
-- [ ] Query results are reviewed through the SvelteKit app.
-- [ ] Notes capture expected products, actual products, and ranking issues.
-- [ ] No extra evaluation script is required for this milestone.
+- [x] Fixed query checklist exists.
+- [x] Query results are reviewed through the SvelteKit app.
+- [x] Notes capture expected products, actual products, and ranking issues.
+- [x] No extra evaluation script is required for this milestone.
 
 ### 4. Lexical Ranking Experiments
 

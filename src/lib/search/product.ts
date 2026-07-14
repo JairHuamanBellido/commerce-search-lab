@@ -20,9 +20,12 @@ export type ProductFacets = Record<ProductFacetKey, ProductFacetBucket[]>;
 
 export type ProductSearchFilters = Partial<Record<ProductFacetKey, string[]>>;
 
+export type ProductSortOption = 'relevance' | 'price-asc' | 'price-desc' | 'rating-desc' | 'newest';
+
 export type ProductSearchRequest = {
 	term: string;
 	filters: ProductSearchFilters;
+	sort?: ProductSortOption;
 	from?: number;
 	size?: number;
 };

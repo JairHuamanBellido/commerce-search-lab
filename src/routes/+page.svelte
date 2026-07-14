@@ -2,17 +2,20 @@
 	import FacetsPanel from '$lib/components/FacetsPanel.svelte';
 	import ProductGrid from '$lib/components/ProductGrid.svelte';
 	import SearchBar from '$lib/components/SearchBar.svelte';
+	import SortControl from '$lib/components/SortControl.svelte';
 	import type {
 		Product,
 		ProductFacetKey,
 		ProductFacets,
-		ProductSearchFilters
+		ProductSearchFilters,
+		ProductSortOption
 	} from '$lib/search/product';
 	import { OpensearchAPIClient } from '../infrastructure/opensearch-client';
 	import { onMount } from 'svelte';
 
 	let searchTerm = $state('');
 	let selectedFilters = $state<ProductSearchFilters>({});
+	let selectedSort = $state<ProductSortOption>('relevance');
 	let products = $state<Product[]>([]);
 	let facets = $state<ProductFacets>({ brand: [], category: [] });
 	let total = $state(0);
@@ -40,6 +43,7 @@
 			const result = await OpensearchAPIClient.searchProducts({
 				term: searchTerm,
 				filters: selectedFilters,
+				sort: selectedSort,
 				from: (currentPage - 1) * pageSize,
 				size: pageSize
 			});
@@ -103,6 +107,16 @@
 
 	function handleClearFilters() {
 		selectedFilters = {};
+		currentPage = 1;
+		void searchProducts();
+	}
+
+	function handleSortChange(sort: ProductSortOption) {
+		if (sort === selectedSort) {
+			return;
+		}
+
+		selectedSort = sort;
 		currentPage = 1;
 		void searchProducts();
 	}
@@ -179,6 +193,7 @@
 					{#if isLoading}
 						<p class="text-sm font-medium text-slate-500">Updating results...</p>
 					{/if}
+					<SortControl {selectedSort} {isLoading} onSortChange={handleSortChange} />
 				</div>
 
 				<ProductGrid {products} {isLoading} />
