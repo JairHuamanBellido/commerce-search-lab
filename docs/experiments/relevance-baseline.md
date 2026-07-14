@@ -48,7 +48,39 @@ Track expected search results before tuning queries or mappings.
 
 ## Observations
 
-TODO: record actual top results from local OpenSearch after running `docker compose up -d`, `pnpm search:seed`, and `pnpm dev`.
+Recorded after running `pnpm search:seed` against local OpenSearch.
+
+## Actual Top Results
+
+| Query                 | Rank | Product                                | Score  | Pass/Fail Note                                                         |
+| --------------------- | ---- | -------------------------------------- | ------ | ---------------------------------------------------------------------- |
+| `running shoes`       | 1    | Adidas Ultraboost Running Shoes        | 7.6492 | PASS: expected running shoes rank at top.                              |
+| `running shoes`       | 2    | Nike Pegasus Road Running Shoes        | 6.9562 | PASS: expected product appears in top 2.                               |
+| `running shoes`       | 3    | Brooks Ghost Stability Running Shoes   | 6.9562 | PASS: relevant running shoe.                                           |
+| `wireless headphones` | 1    | Bose QuietComfort Wireless Headphones  | 8.6368 | PASS: expected wireless headphones rank at top.                        |
+| `wireless headphones` | 2    | Sony WH-1000XM Wireless Headphones     | 7.8543 | PASS: expected product appears in top 2.                               |
+| `coffee maker`        | 1    | Breville Precision Coffee Maker        | 9.3345 | PASS: expected product ranks first.                                    |
+| `coffee maker`        | 2    | Ninja Hot and Iced Coffee Maker        | 7.7836 | PASS: expected product appears in top 2.                               |
+| `coffee maker`        | 3    | Instant Pot Cold Brew Maker            | 2.7569 | PASS: relevant coffee maker result.                                    |
+| `nike`                | 1    | Nike Travel Pants                      | 4.7962 | FAIL: brand match works, but expected Nike Pegasus did not rank first. |
+| `nike`                | 2    | Nike Metcon Training Shoes             | 4.3184 | PASS: Nike brand result.                                               |
+| `nike`                | 3    | Nike Pegasus Road Running Shoes        | 3.9272 | FAIL: expected product appears, but below other Nike products.         |
+| `nike`                | 4    | Nike Dri-FIT Running Shirt             | 3.9272 | PASS: Nike brand result.                                               |
+| `nike`                | 5    | Timbuk2 Classic Commuter Messenger Bag | 1.3733 | FAIL: non-Nike result appears due description match.                   |
+| `laptop backpack`     | 1    | Herschel Laptop Backpack               | 8.6736 | PASS: expected product ranks first.                                    |
+| `laptop backpack`     | 2    | North Face Commuter Laptop Backpack    | 7.1020 | PASS: expected product appears in top 2.                               |
+| `laptop backpack`     | 3    | Herschel Roll-Top Backpack             | 2.2577 | PASS: relevant backpack fallback.                                      |
+
+Some queries return fewer than 5 results because `operator: 'and'` requires all query terms to match.
+
+## Actual Facet Check Results
+
+| Search Term | Selected Facet      | Actual Result Summary                                                                 | Pass/Fail Note                                         |
+| ----------- | ------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| `running`   | Brand: `Nike`       | 2 results: Nike Pegasus Road Running Shoes, Nike Dri-FIT Running Shirt                | PASS: results are Nike and running-related.            |
+| `laptop`    | Category: `Bags`    | 5 results, led by Herschel Laptop Backpack and North Face Commuter Laptop Backpack    | PASS: results stay in Bags and avoid laptop computers. |
+| `coffee`    | Category: `Kitchen` | 4 results, led by Breville Precision Coffee Maker and Ninja Hot and Iced Coffee Maker | PASS: results stay kitchen-focused.                    |
+| empty       | Brand: `Apple`      | 5 Apple products from initial catalog search                                          | PASS: empty search plus brand facet works.             |
 
 ## UI Behavior Notes
 
