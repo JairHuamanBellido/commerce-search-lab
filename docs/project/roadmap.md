@@ -29,7 +29,7 @@ Completed:
 In progress:
 
 - [x] Relevance baseline document.
-- [ ] Baseline actual results recorded from local OpenSearch.
+- [x] Baseline actual results recorded from local OpenSearch.
 
 ## Next Steps
 
@@ -88,8 +88,8 @@ In progress:
 
 - [x] 3-5 test queries documented.
 - [x] Expected top results documented.
-- [ ] Actual top results recorded.
-- [ ] Pass/fail notes written.
+- [x] Actual top results recorded.
+- [x] Pass/fail notes written.
 
 ### 7. README Update
 
