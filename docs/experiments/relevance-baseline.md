@@ -87,3 +87,78 @@ Some queries return fewer than 5 results because `operator: 'and'` requires all 
 - Search term and selected facets are sent together in the same OpenSearch request.
 - Changing the search term or selected facets resets pagination to page 1.
 - Pagination controls use OpenSearch `from` and `size`; results are not sliced client-side.
+
+## Boost Tuning Experiments
+
+Use this section for Milestone 2 Task 4 evidence. Run one experiment at a time and change only one query setting per experiment.
+
+### Experiment 1: Brand Boost
+
+#### Hypothesis
+
+Increasing the `brand` field boost will rank products with an exact brand match above products that only mention the brand name in the title or description.
+
+#### Query Under Test
+
+`nike`
+
+#### Current Query Fields
+
+```ts
+['title', 'brand', 'category', 'description']
+```
+
+#### Before
+
+Results recorded from the SvelteKit app before changing boosts.
+
+| Rank | Product | Brand | Category | Score | Note |
+| ---- | ------- | ----- | -------- | ----- | ---- |
+| 1 | Nike Travel Pants | Nike | Clothing | 1.7887292 | Exact Nike brand product ranks first. |
+| 2 | Nike pins for shoes | PinLab | Accessories | 1.7360619 | Weak result: title mentions Nike, but product is an accessory from another brand. |
+| 3 | Nike Metcon Training Shoes | Nike | Shoes | 1.5922456 | Exact Nike brand product. |
+| 4 | Nike Marathon Poster Print | PosterMile | Home | 1.5922456 | Weak result: title mentions Nike, but product is a poster from another brand. |
+| 5 | Velocity Road Running Shoes | Nike | Shoes | 1.4881318 | Exact Nike brand product ranks below title-only Nike mentions. |
+
+#### Change Tested
+
+```ts
+['title^2', 'brand^4', 'category^1.5', 'description^0.5']
+```
+
+#### After
+
+Results recorded from the SvelteKit app after changing boosts.
+
+| Rank | Product | Brand | Category | Score | Note |
+| ---- | ------- | ----- | -------- | ----- | ---- |
+| 1 | Nike Pegasus Road Running Shoes | Nike | Shoes | 4.576002 | Exact Nike brand product moved into top results. |
+| 2 | Nike Dri-FIT Running Shirt | Nike | Clothing | 4.576002 | Exact Nike brand product. |
+| 3 | Nike Metcon Training Shoes | Nike | Shoes | 4.576002 | Exact Nike brand product. |
+| 4 | Nike Travel Pants | Nike | Clothing | 4.576002 | Exact Nike brand product. |
+| 5 | Velocity Road Running Shoes | Nike | Shoes | 4.576002 | Exact Nike brand product now outranks title-only Nike mentions. |
+
+#### Result
+
+`Better`
+
+Explain why:
+
+- The top 5 results after the change all belong to the `Nike` brand.
+- Title-only or accessory matches, such as `Nike pins for shoes` and `Nike Marathon Poster Print`, no longer appear above exact Nike brand products.
+- The result set now reflects brand importance more clearly for a brand-name query.
+
+#### Decision
+
+`Keep and investigate more`
+
+Reason:
+
+- The boost change improves the observed `nike` ranking issue.
+- The change should still be checked against other brand queries before treating it as final for the milestone.
+
+#### Follow-Up Checks
+
+- Test the same boost against at least two other brand queries.
+- Check whether title-intent queries still work, such as `coffee maker`, `wireless headphones`, and `laptop backpack`.
+- Check whether tricky products still behave reasonably, such as `Nike pins for shoes`, `Apple Kitchen Prep Slicer`, and `Bose Quiet Desk Fan`.

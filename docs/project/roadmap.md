@@ -71,9 +71,9 @@ In progress:
 
 ### 4. Lexical Ranking Experiments
 
-- [ ] First boost tuning experiment is documented.
-- [ ] Before/after ranking changes are checked through the app.
-- [ ] Query changes are based on observed search behavior, not intuition-only.
+- [x] First boost tuning experiment is documented.
+- [x] Before/after ranking changes are checked through the app.
+- [x] Query changes are based on observed search behavior, not intuition-only.
 
 ### 5. OpenSearch IR Learning
 

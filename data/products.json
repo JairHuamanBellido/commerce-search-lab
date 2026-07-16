@@ -998,5 +998,2005 @@
 		"price": 29.99,
 		"rating": 4.3,
 		"createdAt": "2026-07-22T10:00:00.000Z"
+	},
+	{
+		"id": "prod-101",
+		"title": "Nike pins for shoes",
+		"description": "Decorative shoe pins sized for laces, clogs, and sneaker displays. Not Nike brand footwear.",
+		"category": "Accessories",
+		"brand": "PinLab",
+		"price": 12.99,
+		"rating": 4.1,
+		"createdAt": "2026-07-23T10:00:00.000Z"
+	},
+	{
+		"id": "prod-102",
+		"title": "Apple Kitchen Prep Slicer",
+		"description": "Compact apple slicer for lunch prep and baking, with dishwasher-safe blades.",
+		"category": "Kitchen",
+		"brand": "PrepWorks",
+		"price": 14.99,
+		"rating": 4.2,
+		"createdAt": "2026-07-24T10:00:00.000Z"
+	},
+	{
+		"id": "prod-103",
+		"title": "Jordan Almond Celebration Box",
+		"description": "Pastel candy favors for events, weddings, and gift tables.",
+		"category": "Grocery",
+		"brand": "SweetStreet",
+		"price": 19.99,
+		"rating": 4,
+		"createdAt": "2026-07-25T10:00:00.000Z"
+	},
+	{
+		"id": "prod-104",
+		"title": "North Face Windshield Sun Shade",
+		"description": "Foldable car sun shade for hot parking lots and road trips.",
+		"category": "Auto",
+		"brand": "RoadNest",
+		"price": 18.49,
+		"rating": 4.1,
+		"createdAt": "2026-07-26T10:00:00.000Z"
+	},
+	{
+		"id": "prod-105",
+		"title": "Bose Style Ear Cushion Kit",
+		"description": "Replacement cushions compatible with many oval headphone designs, not Bose brand.",
+		"category": "Audio",
+		"brand": "SoundFix",
+		"price": 22.99,
+		"rating": 4.2,
+		"createdAt": "2026-07-27T10:00:00.000Z"
+	},
+	{
+		"id": "prod-106",
+		"title": "Sony Camera Lens Mug",
+		"description": "Insulated novelty mug shaped like a camera lens for desk coffee.",
+		"category": "Drinkware",
+		"brand": "DeskForge",
+		"price": 24.99,
+		"rating": 4.3,
+		"createdAt": "2026-07-28T10:00:00.000Z"
+	},
+	{
+		"id": "prod-107",
+		"title": "Adidas Stripe Laundry Bag",
+		"description": "Large gym laundry bag with stripe pattern for shoes and training clothes.",
+		"category": "Bags",
+		"brand": "PackWell",
+		"price": 16.99,
+		"rating": 4,
+		"createdAt": "2026-07-29T10:00:00.000Z"
+	},
+	{
+		"id": "prod-108",
+		"title": "Samsung Galaxy Star Projector",
+		"description": "Bedroom light projector with galaxy scenes and sleep timer.",
+		"category": "Home",
+		"brand": "GlowNest",
+		"price": 39.99,
+		"rating": 4.4,
+		"createdAt": "2026-07-30T10:00:00.000Z"
+	},
+	{
+		"id": "prod-109",
+		"title": "Patagonia Trail Sticker Pack",
+		"description": "Outdoor-themed vinyl stickers for bottles, laptops, and travel cases.",
+		"category": "Accessories",
+		"brand": "SummitPaper",
+		"price": 9.99,
+		"rating": 4.1,
+		"createdAt": "2026-07-31T10:00:00.000Z"
+	},
+	{
+		"id": "prod-110",
+		"title": "Lululemon Mat Cleaner Spray",
+		"description": "Plant-based yoga mat spray with lavender scent for studio bags.",
+		"category": "Fitness",
+		"brand": "CleanFlow",
+		"price": 13.99,
+		"rating": 4.2,
+		"createdAt": "2026-08-01T10:00:00.000Z"
+	},
+	{
+		"id": "prod-111",
+		"title": "Nike Air Sneaker Display Stand",
+		"description": "Clear acrylic riser for collectible sneakers and retail shelf photos.",
+		"category": "Accessories",
+		"brand": "DisplayHaus",
+		"price": 27.99,
+		"rating": 4.4,
+		"createdAt": "2026-08-02T10:00:00.000Z"
+	},
+	{
+		"id": "prod-112",
+		"title": "Apple Watch Band Organizer",
+		"description": "Travel case for watch bands, chargers, and small tech accessories.",
+		"category": "Accessories",
+		"brand": "OrbitCase",
+		"price": 21.99,
+		"rating": 4.3,
+		"createdAt": "2026-08-03T10:00:00.000Z"
+	},
+	{
+		"id": "prod-113",
+		"title": "KitchenAid Mixer Dust Cover",
+		"description": "Quilted countertop cover with pockets for mixer attachments.",
+		"category": "Kitchen",
+		"brand": "CoverCraft",
+		"price": 25.99,
+		"rating": 4.5,
+		"createdAt": "2026-08-04T10:00:00.000Z"
+	},
+	{
+		"id": "prod-114",
+		"title": "Dyson Vacuum Scent Beads",
+		"description": "Fresh linen scent beads for vacuum bins and storage closets.",
+		"category": "Home",
+		"brand": "FreshBin",
+		"price": 11.99,
+		"rating": 4,
+		"createdAt": "2026-08-05T10:00:00.000Z"
+	},
+	{
+		"id": "prod-115",
+		"title": "Garmin Bike Mount Adapter",
+		"description": "Handlebar mount adapter for cycling computers and lights.",
+		"category": "Fitness",
+		"brand": "RideDock",
+		"price": 17.99,
+		"rating": 4.4,
+		"createdAt": "2026-08-06T10:00:00.000Z"
+	},
+	{
+		"id": "prod-116",
+		"title": "Nike Marathon Poster Print",
+		"description": "Minimalist wall print celebrating marathon training routes.",
+		"category": "Home",
+		"brand": "PosterMile",
+		"price": 18.99,
+		"rating": 4.1,
+		"createdAt": "2026-08-07T10:00:00.000Z"
+	},
+	{
+		"id": "prod-117",
+		"title": "Sony Play Cable Clips",
+		"description": "Adhesive cable clips for game consoles, TVs, and desk setups.",
+		"category": "Electronics",
+		"brand": "CableDen",
+		"price": 8.99,
+		"rating": 4.2,
+		"createdAt": "2026-08-08T10:00:00.000Z"
+	},
+	{
+		"id": "prod-118",
+		"title": "Bose Quiet Desk Fan",
+		"description": "Small USB desk fan marketed for quiet office airflow.",
+		"category": "Home",
+		"brand": "AirPebble",
+		"price": 29.99,
+		"rating": 4.3,
+		"createdAt": "2026-08-09T10:00:00.000Z"
+	},
+	{
+		"id": "prod-119",
+		"title": "Apple Orchard Candle",
+		"description": "Soy candle with apple peel, cinnamon, and cedar notes.",
+		"category": "Home",
+		"brand": "Hearthwick",
+		"price": 20.99,
+		"rating": 4.2,
+		"createdAt": "2026-08-10T10:00:00.000Z"
+	},
+	{
+		"id": "prod-120",
+		"title": "Jordan Travel Shoe Bags",
+		"description": "Two-pack shoe bags for sneakers, heels, and gym footwear.",
+		"category": "Bags",
+		"brand": "CarryPair",
+		"price": 15.99,
+		"rating": 4.1,
+		"createdAt": "2026-08-11T10:00:00.000Z"
+	},
+	{
+		"id": "prod-121",
+		"title": "North Face Mask Set",
+		"description": "Hydrating face mask set for dry skin after travel days.",
+		"category": "Beauty",
+		"brand": "DermaTrail",
+		"price": 12.49,
+		"rating": 4,
+		"createdAt": "2026-08-12T10:00:00.000Z"
+	},
+	{
+		"id": "prod-122",
+		"title": "Adidas Inspired Wall Hooks",
+		"description": "Three-stripe wall hooks for entryway bags and jackets.",
+		"category": "Home",
+		"brand": "Hookline",
+		"price": 19.99,
+		"rating": 4.1,
+		"createdAt": "2026-08-13T10:00:00.000Z"
+	},
+	{
+		"id": "prod-123",
+		"title": "Breville Espresso Knock Box Liner",
+		"description": "Silicone liner for compact espresso knock boxes.",
+		"category": "Kitchen",
+		"brand": "TampCraft",
+		"price": 10.99,
+		"rating": 4.3,
+		"createdAt": "2026-08-14T10:00:00.000Z"
+	},
+	{
+		"id": "prod-124",
+		"title": "Sony WH Headphone Case Tag",
+		"description": "Luggage-style tag for labeling headphone cases and tech pouches.",
+		"category": "Accessories",
+		"brand": "TagPort",
+		"price": 7.99,
+		"rating": 4,
+		"createdAt": "2026-08-15T10:00:00.000Z"
+	},
+	{
+		"id": "prod-125",
+		"title": "Velocity Road Running Shoes",
+		"description": "Nike velocity road running shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Nike",
+		"price": 18,
+		"rating": 3.7,
+		"createdAt": "2026-08-16T10:00:00.000Z"
+	},
+	{
+		"id": "prod-126",
+		"title": "Dri-Fit Training Shirt",
+		"description": "Nike dri-fit training shirt for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Nike",
+		"price": 55.99,
+		"rating": 4.8,
+		"createdAt": "2026-08-17T10:00:00.000Z"
+	},
+	{
+		"id": "prod-127",
+		"title": "Wireless Noise Canceling Headphones",
+		"description": "Sony wireless noise canceling headphones for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Sony",
+		"price": 93.98,
+		"rating": 4.5,
+		"createdAt": "2026-08-18T10:00:00.000Z"
+	},
+	{
+		"id": "prod-128",
+		"title": "Ultra Slim Laptop Sleeve",
+		"description": "Apple ultra slim laptop sleeve for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Apple",
+		"price": 131.97,
+		"rating": 4.2,
+		"createdAt": "2026-08-19T10:00:00.000Z"
+	},
+	{
+		"id": "prod-129",
+		"title": "Precision Coffee Maker",
+		"description": "Breville precision coffee maker for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Breville",
+		"price": 169.96,
+		"rating": 3.9,
+		"createdAt": "2026-08-20T10:00:00.000Z"
+	},
+	{
+		"id": "prod-130",
+		"title": "Laptop Backpack",
+		"description": "Herschel laptop backpack for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Herschel",
+		"price": 207.95,
+		"rating": 5,
+		"createdAt": "2026-08-21T10:00:00.000Z"
+	},
+	{
+		"id": "prod-131",
+		"title": "GPS Running Watch",
+		"description": "Garmin gps running watch for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Garmin",
+		"price": 245.94,
+		"rating": 4.7,
+		"createdAt": "2026-08-22T10:00:00.000Z"
+	},
+	{
+		"id": "prod-132",
+		"title": "Air Purifier",
+		"description": "Dyson air purifier for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Dyson",
+		"price": 283.93,
+		"rating": 4.4,
+		"createdAt": "2026-08-23T10:00:00.000Z"
+	},
+	{
+		"id": "prod-133",
+		"title": "Trail Grip Running Shoes",
+		"description": "Adidas trail grip running shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Adidas",
+		"price": 321.92,
+		"rating": 4.1,
+		"createdAt": "2026-08-24T10:00:00.000Z"
+	},
+	{
+		"id": "prod-134",
+		"title": "Packable Rain Jacket",
+		"description": "Adidas packable rain jacket for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Adidas",
+		"price": 351,
+		"rating": 3.8,
+		"createdAt": "2026-08-25T10:00:00.000Z"
+	},
+	{
+		"id": "prod-135",
+		"title": "Open Ear Sport Earbuds",
+		"description": "Bose open ear sport earbuds for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Bose",
+		"price": 388.99,
+		"rating": 4.9,
+		"createdAt": "2026-08-26T10:00:00.000Z"
+	},
+	{
+		"id": "prod-136",
+		"title": "Wireless Mechanical Keyboard",
+		"description": "Samsung wireless mechanical keyboard for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Samsung",
+		"price": 426.98,
+		"rating": 4.6,
+		"createdAt": "2026-08-27T10:00:00.000Z"
+	},
+	{
+		"id": "prod-137",
+		"title": "Compact Air Fryer",
+		"description": "Ninja compact air fryer for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Ninja",
+		"price": 44.97,
+		"rating": 4.3,
+		"createdAt": "2026-08-28T10:00:00.000Z"
+	},
+	{
+		"id": "prod-138",
+		"title": "Camera Sling Bag",
+		"description": "Timbuk2 camera sling bag for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Timbuk2",
+		"price": 82.96,
+		"rating": 4,
+		"createdAt": "2026-08-29T10:00:00.000Z"
+	},
+	{
+		"id": "prod-139",
+		"title": "Yoga Mat Pro",
+		"description": "Fitbit yoga mat pro for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Fitbit",
+		"price": 120.95,
+		"rating": 3.7,
+		"createdAt": "2026-08-30T10:00:00.000Z"
+	},
+	{
+		"id": "prod-140",
+		"title": "Smart Table Lamp",
+		"description": "Philips Hue smart table lamp for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Philips Hue",
+		"price": 158.94,
+		"rating": 4.8,
+		"createdAt": "2026-08-31T10:00:00.000Z"
+	},
+	{
+		"id": "prod-141",
+		"title": "Court Rally Tennis Shoes",
+		"description": "Brooks court rally tennis shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Brooks",
+		"price": 196.93,
+		"rating": 4.5,
+		"createdAt": "2026-09-01T10:00:00.000Z"
+	},
+	{
+		"id": "prod-142",
+		"title": "Thermal Running Tights",
+		"description": "Patagonia thermal running tights for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Patagonia",
+		"price": 234.92,
+		"rating": 4.2,
+		"createdAt": "2026-09-02T10:00:00.000Z"
+	},
+	{
+		"id": "prod-143",
+		"title": "Portable Bluetooth Speaker",
+		"description": "JBL portable bluetooth speaker for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "JBL",
+		"price": 264,
+		"rating": 3.9,
+		"createdAt": "2026-09-03T10:00:00.000Z"
+	},
+	{
+		"id": "prod-144",
+		"title": "USB-C Travel Charger",
+		"description": "Logitech usb-c travel charger for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Logitech",
+		"price": 301.99,
+		"rating": 5,
+		"createdAt": "2026-09-04T10:00:00.000Z"
+	},
+	{
+		"id": "prod-145",
+		"title": "Pour-Over Kettle",
+		"description": "KitchenAid pour-over kettle for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "KitchenAid",
+		"price": 339.98,
+		"rating": 4.7,
+		"createdAt": "2026-09-05T10:00:00.000Z"
+	},
+	{
+		"id": "prod-146",
+		"title": "Weekender Duffel",
+		"description": "Osprey weekender duffel for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Osprey",
+		"price": 377.97,
+		"rating": 4.4,
+		"createdAt": "2026-09-06T10:00:00.000Z"
+	},
+	{
+		"id": "prod-147",
+		"title": "Adjustable Dumbbell Pair",
+		"description": "Manduka adjustable dumbbell pair for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Manduka",
+		"price": 415.96,
+		"rating": 4.1,
+		"createdAt": "2026-09-07T10:00:00.000Z"
+	},
+	{
+		"id": "prod-148",
+		"title": "Memory Foam Pillow",
+		"description": "Ikea memory foam pillow for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Ikea",
+		"price": 33.95,
+		"rating": 3.8,
+		"createdAt": "2026-09-08T10:00:00.000Z"
+	},
+	{
+		"id": "prod-149",
+		"title": "Daily Trainer Sneakers",
+		"description": "Hoka daily trainer sneakers for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Hoka",
+		"price": 71.94,
+		"rating": 4.9,
+		"createdAt": "2026-09-09T10:00:00.000Z"
+	},
+	{
+		"id": "prod-150",
+		"title": "Stretch Travel Pants",
+		"description": "Lululemon stretch travel pants for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Lululemon",
+		"price": 109.93,
+		"rating": 4.6,
+		"createdAt": "2026-09-10T10:00:00.000Z"
+	},
+	{
+		"id": "prod-151",
+		"title": "Studio Monitor Headphones",
+		"description": "Sennheiser studio monitor headphones for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Sennheiser",
+		"price": 147.92,
+		"rating": 4.3,
+		"createdAt": "2026-09-11T10:00:00.000Z"
+	},
+	{
+		"id": "prod-152",
+		"title": "4K Webcam",
+		"description": "Dell 4k webcam for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Dell",
+		"price": 177,
+		"rating": 4,
+		"createdAt": "2026-09-12T10:00:00.000Z"
+	},
+	{
+		"id": "prod-153",
+		"title": "Stand Mixer Attachment Set",
+		"description": "OXO stand mixer attachment set for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "OXO",
+		"price": 214.99,
+		"rating": 3.7,
+		"createdAt": "2026-09-13T10:00:00.000Z"
+	},
+	{
+		"id": "prod-154",
+		"title": "Packable Tote",
+		"description": "Patagonia packable tote for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Patagonia",
+		"price": 252.98,
+		"rating": 4.8,
+		"createdAt": "2026-09-14T10:00:00.000Z"
+	},
+	{
+		"id": "prod-155",
+		"title": "Massage Gun Mini",
+		"description": "Rogue massage gun mini for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Rogue",
+		"price": 290.97,
+		"rating": 4.5,
+		"createdAt": "2026-09-15T10:00:00.000Z"
+	},
+	{
+		"id": "prod-156",
+		"title": "Cordless Stick Vacuum",
+		"description": "Casper cordless stick vacuum for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Casper",
+		"price": 328.96,
+		"rating": 4.2,
+		"createdAt": "2026-09-16T10:00:00.000Z"
+	},
+	{
+		"id": "prod-157",
+		"title": "Metcon Studio Training Shoes",
+		"description": "New Balance metcon studio training shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "New Balance",
+		"price": 366.95,
+		"rating": 3.9,
+		"createdAt": "2026-09-17T10:00:00.000Z"
+	},
+	{
+		"id": "prod-158",
+		"title": "Merino Hiking Socks",
+		"description": "Columbia merino hiking socks for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Columbia",
+		"price": 404.94,
+		"rating": 5,
+		"createdAt": "2026-09-18T10:00:00.000Z"
+	},
+	{
+		"id": "prod-159",
+		"title": "Sleep Earbuds",
+		"description": "Apple sleep earbuds for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Apple",
+		"price": 442.93,
+		"rating": 4.7,
+		"createdAt": "2026-09-19T10:00:00.000Z"
+	},
+	{
+		"id": "prod-160",
+		"title": "Portable SSD Drive",
+		"description": "Lenovo portable ssd drive for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Lenovo",
+		"price": 60.92,
+		"rating": 4.4,
+		"createdAt": "2026-09-20T10:00:00.000Z"
+	},
+	{
+		"id": "prod-161",
+		"title": "Smart Rice Cooker",
+		"description": "Cuisinart smart rice cooker for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Cuisinart",
+		"price": 90,
+		"rating": 4.1,
+		"createdAt": "2026-09-21T10:00:00.000Z"
+	},
+	{
+		"id": "prod-162",
+		"title": "Rolling Carry-On",
+		"description": "The North Face rolling carry-on for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "The North Face",
+		"price": 127.99,
+		"rating": 3.8,
+		"createdAt": "2026-09-22T10:00:00.000Z"
+	},
+	{
+		"id": "prod-163",
+		"title": "Foam Roller Grid",
+		"description": "Theragun foam roller grid for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Theragun",
+		"price": 165.98,
+		"rating": 4.9,
+		"createdAt": "2026-09-23T10:00:00.000Z"
+	},
+	{
+		"id": "prod-164",
+		"title": "Weighted Blanket",
+		"description": "Brooklinen weighted blanket for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Brooklinen",
+		"price": 203.97,
+		"rating": 4.6,
+		"createdAt": "2026-09-24T10:00:00.000Z"
+	},
+	{
+		"id": "prod-165",
+		"title": "Recovery Slide Sandals",
+		"description": "Asics recovery slide sandals for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Asics",
+		"price": 241.96,
+		"rating": 4.3,
+		"createdAt": "2026-09-25T10:00:00.000Z"
+	},
+	{
+		"id": "prod-166",
+		"title": "Fleece Quarter Zip Pullover",
+		"description": "Under Armour fleece quarter zip pullover for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Under Armour",
+		"price": 279.95,
+		"rating": 4,
+		"createdAt": "2026-09-26T10:00:00.000Z"
+	},
+	{
+		"id": "prod-167",
+		"title": "Kids Volume Safe Headphones",
+		"description": "Anker kids volume safe headphones for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Anker",
+		"price": 317.94,
+		"rating": 3.7,
+		"createdAt": "2026-09-27T10:00:00.000Z"
+	},
+	{
+		"id": "prod-168",
+		"title": "Tablet Drawing Stylus",
+		"description": "Anker tablet drawing stylus for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Anker",
+		"price": 355.93,
+		"rating": 4.8,
+		"createdAt": "2026-09-28T10:00:00.000Z"
+	},
+	{
+		"id": "prod-169",
+		"title": "Dutch Oven",
+		"description": "Instant Pot dutch oven for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Instant Pot",
+		"price": 393.92,
+		"rating": 4.5,
+		"createdAt": "2026-09-29T10:00:00.000Z"
+	},
+	{
+		"id": "prod-170",
+		"title": "Messenger Bag",
+		"description": "Bellroy messenger bag for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Bellroy",
+		"price": 423,
+		"rating": 4.2,
+		"createdAt": "2026-09-30T10:00:00.000Z"
+	},
+	{
+		"id": "prod-171",
+		"title": "Cycling Cadence Sensor",
+		"description": "Peloton cycling cadence sensor for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Peloton",
+		"price": 40.99,
+		"rating": 3.9,
+		"createdAt": "2026-10-01T10:00:00.000Z"
+	},
+	{
+		"id": "prod-172",
+		"title": "Motion Sensor Trash Can",
+		"description": "Nest motion sensor trash can for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Nest",
+		"price": 78.98,
+		"rating": 5,
+		"createdAt": "2026-10-02T10:00:00.000Z"
+	},
+	{
+		"id": "prod-173",
+		"title": "Waterproof Hiking Shoes",
+		"description": "Puma waterproof hiking shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Puma",
+		"price": 116.97,
+		"rating": 4.7,
+		"createdAt": "2026-10-03T10:00:00.000Z"
+	},
+	{
+		"id": "prod-174",
+		"title": "Sun Protection Hoodie",
+		"description": "The North Face sun protection hoodie for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "The North Face",
+		"price": 154.96,
+		"rating": 4.4,
+		"createdAt": "2026-10-04T10:00:00.000Z"
+	},
+	{
+		"id": "prod-175",
+		"title": "Conference Speakerphone",
+		"description": "Beats conference speakerphone for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Beats",
+		"price": 192.95,
+		"rating": 4.1,
+		"createdAt": "2026-10-05T10:00:00.000Z"
+	},
+	{
+		"id": "prod-176",
+		"title": "Magnetic Phone Stand",
+		"description": "Belkin magnetic phone stand for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Belkin",
+		"price": 230.94,
+		"rating": 3.8,
+		"createdAt": "2026-10-06T10:00:00.000Z"
+	},
+	{
+		"id": "prod-177",
+		"title": "Cold Brew Maker",
+		"description": "Zojirushi cold brew maker for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Zojirushi",
+		"price": 268.93,
+		"rating": 4.9,
+		"createdAt": "2026-10-07T10:00:00.000Z"
+	},
+	{
+		"id": "prod-178",
+		"title": "Trail Daypack",
+		"description": "Away trail daypack for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Away",
+		"price": 306.92,
+		"rating": 4.6,
+		"createdAt": "2026-10-08T10:00:00.000Z"
+	},
+	{
+		"id": "prod-179",
+		"title": "Resistance Band Kit",
+		"description": "TriggerPoint resistance band kit for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "TriggerPoint",
+		"price": 336,
+		"rating": 4.3,
+		"createdAt": "2026-10-09T10:00:00.000Z"
+	},
+	{
+		"id": "prod-180",
+		"title": "Smart Thermostat",
+		"description": "Simplehuman smart thermostat for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Simplehuman",
+		"price": 373.99,
+		"rating": 4,
+		"createdAt": "2026-10-10T10:00:00.000Z"
+	},
+	{
+		"id": "prod-181",
+		"title": "Retro Low Sneakers",
+		"description": "Saucony retro low sneakers for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Saucony",
+		"price": 411.98,
+		"rating": 3.7,
+		"createdAt": "2026-10-11T10:00:00.000Z"
+	},
+	{
+		"id": "prod-182",
+		"title": "Yoga Align Tank",
+		"description": "Uniqlo yoga align tank for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Uniqlo",
+		"price": 29.97,
+		"rating": 4.8,
+		"createdAt": "2026-10-12T10:00:00.000Z"
+	},
+	{
+		"id": "prod-183",
+		"title": "USB-C DAC Adapter",
+		"description": "Audio-Technica usb-c dac adapter for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Audio-Technica",
+		"price": 67.96,
+		"rating": 4.5,
+		"createdAt": "2026-10-13T10:00:00.000Z"
+	},
+	{
+		"id": "prod-184",
+		"title": "Mesh Wi-Fi Add-On Node",
+		"description": "Razer mesh wi-fi add-on node for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Razer",
+		"price": 105.95,
+		"rating": 4.2,
+		"createdAt": "2026-10-14T10:00:00.000Z"
+	},
+	{
+		"id": "prod-185",
+		"title": "Digital Food Scale",
+		"description": "Le Creuset digital food scale for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Le Creuset",
+		"price": 143.94,
+		"rating": 3.9,
+		"createdAt": "2026-10-15T10:00:00.000Z"
+	},
+	{
+		"id": "prod-186",
+		"title": "Tech Organizer Pouch",
+		"description": "Peak Design tech organizer pouch for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Peak Design",
+		"price": 181.93,
+		"rating": 5,
+		"createdAt": "2026-10-16T10:00:00.000Z"
+	},
+	{
+		"id": "prod-187",
+		"title": "Insulated Sport Bottle",
+		"description": "Hydro Flask insulated sport bottle for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Hydro Flask",
+		"price": 219.92,
+		"rating": 4.7,
+		"createdAt": "2026-10-17T10:00:00.000Z"
+	},
+	{
+		"id": "prod-188",
+		"title": "Linen Sheet Set",
+		"description": "Coway linen sheet set for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Coway",
+		"price": 249,
+		"rating": 4.4,
+		"createdAt": "2026-10-18T10:00:00.000Z"
+	},
+	{
+		"id": "prod-189",
+		"title": "Velocity Road Running Shoes",
+		"description": "Nike velocity road running shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Nike",
+		"price": 286.99,
+		"rating": 4.1,
+		"createdAt": "2026-10-19T10:00:00.000Z"
+	},
+	{
+		"id": "prod-190",
+		"title": "Dri-Fit Training Shirt",
+		"description": "Nike dri-fit training shirt for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Nike",
+		"price": 324.98,
+		"rating": 3.8,
+		"createdAt": "2026-10-20T10:00:00.000Z"
+	},
+	{
+		"id": "prod-191",
+		"title": "Wireless Noise Canceling Headphones",
+		"description": "Sony wireless noise canceling headphones for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Sony",
+		"price": 362.97,
+		"rating": 4.9,
+		"createdAt": "2026-10-21T10:00:00.000Z"
+	},
+	{
+		"id": "prod-192",
+		"title": "Ultra Slim Laptop Sleeve",
+		"description": "Apple ultra slim laptop sleeve for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Apple",
+		"price": 400.96,
+		"rating": 4.6,
+		"createdAt": "2026-10-22T10:00:00.000Z"
+	},
+	{
+		"id": "prod-193",
+		"title": "Precision Coffee Maker",
+		"description": "Breville precision coffee maker for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Breville",
+		"price": 438.95,
+		"rating": 4.3,
+		"createdAt": "2026-10-23T10:00:00.000Z"
+	},
+	{
+		"id": "prod-194",
+		"title": "Laptop Backpack",
+		"description": "Herschel laptop backpack for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Herschel",
+		"price": 56.94,
+		"rating": 4,
+		"createdAt": "2026-10-24T10:00:00.000Z"
+	},
+	{
+		"id": "prod-195",
+		"title": "GPS Running Watch",
+		"description": "Garmin gps running watch for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Garmin",
+		"price": 94.93,
+		"rating": 3.7,
+		"createdAt": "2026-10-25T10:00:00.000Z"
+	},
+	{
+		"id": "prod-196",
+		"title": "Air Purifier",
+		"description": "Dyson air purifier for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Dyson",
+		"price": 132.92,
+		"rating": 4.8,
+		"createdAt": "2026-10-26T10:00:00.000Z"
+	},
+	{
+		"id": "prod-197",
+		"title": "Trail Grip Running Shoes",
+		"description": "Adidas trail grip running shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Adidas",
+		"price": 162,
+		"rating": 4.5,
+		"createdAt": "2026-10-27T10:00:00.000Z"
+	},
+	{
+		"id": "prod-198",
+		"title": "Packable Rain Jacket",
+		"description": "Adidas packable rain jacket for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Adidas",
+		"price": 199.99,
+		"rating": 4.2,
+		"createdAt": "2026-10-28T10:00:00.000Z"
+	},
+	{
+		"id": "prod-199",
+		"title": "Open Ear Sport Earbuds",
+		"description": "Bose open ear sport earbuds for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Bose",
+		"price": 237.98,
+		"rating": 3.9,
+		"createdAt": "2026-10-29T10:00:00.000Z"
+	},
+	{
+		"id": "prod-200",
+		"title": "Wireless Mechanical Keyboard",
+		"description": "Samsung wireless mechanical keyboard for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Samsung",
+		"price": 275.97,
+		"rating": 5,
+		"createdAt": "2026-10-30T10:00:00.000Z"
+	},
+	{
+		"id": "prod-201",
+		"title": "Compact Air Fryer",
+		"description": "Ninja compact air fryer for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Ninja",
+		"price": 313.96,
+		"rating": 4.7,
+		"createdAt": "2026-10-31T10:00:00.000Z"
+	},
+	{
+		"id": "prod-202",
+		"title": "Camera Sling Bag",
+		"description": "Timbuk2 camera sling bag for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Timbuk2",
+		"price": 351.95,
+		"rating": 4.4,
+		"createdAt": "2026-11-01T10:00:00.000Z"
+	},
+	{
+		"id": "prod-203",
+		"title": "Yoga Mat Pro",
+		"description": "Fitbit yoga mat pro for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Fitbit",
+		"price": 389.94,
+		"rating": 4.1,
+		"createdAt": "2026-11-02T10:00:00.000Z"
+	},
+	{
+		"id": "prod-204",
+		"title": "Smart Table Lamp",
+		"description": "Philips Hue smart table lamp for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Philips Hue",
+		"price": 427.93,
+		"rating": 3.8,
+		"createdAt": "2026-11-03T10:00:00.000Z"
+	},
+	{
+		"id": "prod-205",
+		"title": "Court Rally Tennis Shoes",
+		"description": "Brooks court rally tennis shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Brooks",
+		"price": 45.92,
+		"rating": 4.9,
+		"createdAt": "2026-11-04T10:00:00.000Z"
+	},
+	{
+		"id": "prod-206",
+		"title": "Thermal Running Tights",
+		"description": "Patagonia thermal running tights for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Patagonia",
+		"price": 75,
+		"rating": 4.6,
+		"createdAt": "2026-11-05T10:00:00.000Z"
+	},
+	{
+		"id": "prod-207",
+		"title": "Portable Bluetooth Speaker",
+		"description": "JBL portable bluetooth speaker for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "JBL",
+		"price": 112.99,
+		"rating": 4.3,
+		"createdAt": "2026-11-06T10:00:00.000Z"
+	},
+	{
+		"id": "prod-208",
+		"title": "USB-C Travel Charger",
+		"description": "Logitech usb-c travel charger for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Logitech",
+		"price": 150.98,
+		"rating": 4,
+		"createdAt": "2026-11-07T10:00:00.000Z"
+	},
+	{
+		"id": "prod-209",
+		"title": "Pour-Over Kettle",
+		"description": "KitchenAid pour-over kettle for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "KitchenAid",
+		"price": 188.97,
+		"rating": 3.7,
+		"createdAt": "2026-11-08T10:00:00.000Z"
+	},
+	{
+		"id": "prod-210",
+		"title": "Weekender Duffel",
+		"description": "Osprey weekender duffel for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Osprey",
+		"price": 226.96,
+		"rating": 4.8,
+		"createdAt": "2026-11-09T10:00:00.000Z"
+	},
+	{
+		"id": "prod-211",
+		"title": "Adjustable Dumbbell Pair",
+		"description": "Manduka adjustable dumbbell pair for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Manduka",
+		"price": 264.95,
+		"rating": 4.5,
+		"createdAt": "2026-11-10T10:00:00.000Z"
+	},
+	{
+		"id": "prod-212",
+		"title": "Memory Foam Pillow",
+		"description": "Ikea memory foam pillow for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Ikea",
+		"price": 302.94,
+		"rating": 4.2,
+		"createdAt": "2026-11-11T10:00:00.000Z"
+	},
+	{
+		"id": "prod-213",
+		"title": "Daily Trainer Sneakers",
+		"description": "Hoka daily trainer sneakers for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Hoka",
+		"price": 340.93,
+		"rating": 3.9,
+		"createdAt": "2026-11-12T10:00:00.000Z"
+	},
+	{
+		"id": "prod-214",
+		"title": "Stretch Travel Pants",
+		"description": "Lululemon stretch travel pants for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Lululemon",
+		"price": 378.92,
+		"rating": 5,
+		"createdAt": "2026-11-13T10:00:00.000Z"
+	},
+	{
+		"id": "prod-215",
+		"title": "Studio Monitor Headphones",
+		"description": "Sennheiser studio monitor headphones for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Sennheiser",
+		"price": 408,
+		"rating": 4.7,
+		"createdAt": "2026-11-14T10:00:00.000Z"
+	},
+	{
+		"id": "prod-216",
+		"title": "4K Webcam",
+		"description": "Dell 4k webcam for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Dell",
+		"price": 25.99,
+		"rating": 4.4,
+		"createdAt": "2026-11-15T10:00:00.000Z"
+	},
+	{
+		"id": "prod-217",
+		"title": "Stand Mixer Attachment Set",
+		"description": "OXO stand mixer attachment set for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "OXO",
+		"price": 63.98,
+		"rating": 4.1,
+		"createdAt": "2026-11-16T10:00:00.000Z"
+	},
+	{
+		"id": "prod-218",
+		"title": "Packable Tote",
+		"description": "Patagonia packable tote for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Patagonia",
+		"price": 101.97,
+		"rating": 3.8,
+		"createdAt": "2026-11-17T10:00:00.000Z"
+	},
+	{
+		"id": "prod-219",
+		"title": "Massage Gun Mini",
+		"description": "Rogue massage gun mini for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Rogue",
+		"price": 139.96,
+		"rating": 4.9,
+		"createdAt": "2026-11-18T10:00:00.000Z"
+	},
+	{
+		"id": "prod-220",
+		"title": "Cordless Stick Vacuum",
+		"description": "Casper cordless stick vacuum for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Casper",
+		"price": 177.95,
+		"rating": 4.6,
+		"createdAt": "2026-11-19T10:00:00.000Z"
+	},
+	{
+		"id": "prod-221",
+		"title": "Metcon Studio Training Shoes",
+		"description": "New Balance metcon studio training shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "New Balance",
+		"price": 215.94,
+		"rating": 4.3,
+		"createdAt": "2026-11-20T10:00:00.000Z"
+	},
+	{
+		"id": "prod-222",
+		"title": "Merino Hiking Socks",
+		"description": "Columbia merino hiking socks for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Columbia",
+		"price": 253.93,
+		"rating": 4,
+		"createdAt": "2026-11-21T10:00:00.000Z"
+	},
+	{
+		"id": "prod-223",
+		"title": "Sleep Earbuds",
+		"description": "Apple sleep earbuds for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Apple",
+		"price": 291.92,
+		"rating": 3.7,
+		"createdAt": "2026-11-22T10:00:00.000Z"
+	},
+	{
+		"id": "prod-224",
+		"title": "Portable SSD Drive",
+		"description": "Lenovo portable ssd drive for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Lenovo",
+		"price": 321,
+		"rating": 4.8,
+		"createdAt": "2026-11-23T10:00:00.000Z"
+	},
+	{
+		"id": "prod-225",
+		"title": "Smart Rice Cooker",
+		"description": "Cuisinart smart rice cooker for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Cuisinart",
+		"price": 358.99,
+		"rating": 4.5,
+		"createdAt": "2026-11-24T10:00:00.000Z"
+	},
+	{
+		"id": "prod-226",
+		"title": "Rolling Carry-On",
+		"description": "The North Face rolling carry-on for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "The North Face",
+		"price": 396.98,
+		"rating": 4.2,
+		"createdAt": "2026-11-25T10:00:00.000Z"
+	},
+	{
+		"id": "prod-227",
+		"title": "Foam Roller Grid",
+		"description": "Theragun foam roller grid for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Theragun",
+		"price": 434.97,
+		"rating": 3.9,
+		"createdAt": "2026-11-26T10:00:00.000Z"
+	},
+	{
+		"id": "prod-228",
+		"title": "Weighted Blanket",
+		"description": "Brooklinen weighted blanket for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Brooklinen",
+		"price": 52.96,
+		"rating": 5,
+		"createdAt": "2026-11-27T10:00:00.000Z"
+	},
+	{
+		"id": "prod-229",
+		"title": "Recovery Slide Sandals",
+		"description": "Asics recovery slide sandals for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Asics",
+		"price": 90.95,
+		"rating": 4.7,
+		"createdAt": "2026-11-28T10:00:00.000Z"
+	},
+	{
+		"id": "prod-230",
+		"title": "Fleece Quarter Zip Pullover",
+		"description": "Under Armour fleece quarter zip pullover for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Under Armour",
+		"price": 128.94,
+		"rating": 4.4,
+		"createdAt": "2026-11-29T10:00:00.000Z"
+	},
+	{
+		"id": "prod-231",
+		"title": "Kids Volume Safe Headphones",
+		"description": "Anker kids volume safe headphones for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Anker",
+		"price": 166.93,
+		"rating": 4.1,
+		"createdAt": "2026-11-30T10:00:00.000Z"
+	},
+	{
+		"id": "prod-232",
+		"title": "Tablet Drawing Stylus",
+		"description": "Anker tablet drawing stylus for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Anker",
+		"price": 204.92,
+		"rating": 3.8,
+		"createdAt": "2026-12-01T10:00:00.000Z"
+	},
+	{
+		"id": "prod-233",
+		"title": "Dutch Oven",
+		"description": "Instant Pot dutch oven for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Instant Pot",
+		"price": 234,
+		"rating": 4.9,
+		"createdAt": "2026-12-02T10:00:00.000Z"
+	},
+	{
+		"id": "prod-234",
+		"title": "Messenger Bag",
+		"description": "Bellroy messenger bag for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Bellroy",
+		"price": 271.99,
+		"rating": 4.6,
+		"createdAt": "2026-12-03T10:00:00.000Z"
+	},
+	{
+		"id": "prod-235",
+		"title": "Cycling Cadence Sensor",
+		"description": "Peloton cycling cadence sensor for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Peloton",
+		"price": 309.98,
+		"rating": 4.3,
+		"createdAt": "2026-12-04T10:00:00.000Z"
+	},
+	{
+		"id": "prod-236",
+		"title": "Motion Sensor Trash Can",
+		"description": "Nest motion sensor trash can for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Nest",
+		"price": 347.97,
+		"rating": 4,
+		"createdAt": "2026-12-05T10:00:00.000Z"
+	},
+	{
+		"id": "prod-237",
+		"title": "Waterproof Hiking Shoes",
+		"description": "Puma waterproof hiking shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Puma",
+		"price": 385.96,
+		"rating": 3.7,
+		"createdAt": "2026-12-06T10:00:00.000Z"
+	},
+	{
+		"id": "prod-238",
+		"title": "Sun Protection Hoodie",
+		"description": "The North Face sun protection hoodie for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "The North Face",
+		"price": 423.95,
+		"rating": 4.8,
+		"createdAt": "2026-12-07T10:00:00.000Z"
+	},
+	{
+		"id": "prod-239",
+		"title": "Conference Speakerphone",
+		"description": "Beats conference speakerphone for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Beats",
+		"price": 41.94,
+		"rating": 4.5,
+		"createdAt": "2026-12-08T10:00:00.000Z"
+	},
+	{
+		"id": "prod-240",
+		"title": "Magnetic Phone Stand",
+		"description": "Belkin magnetic phone stand for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Belkin",
+		"price": 79.93,
+		"rating": 4.2,
+		"createdAt": "2026-12-09T10:00:00.000Z"
+	},
+	{
+		"id": "prod-241",
+		"title": "Cold Brew Maker",
+		"description": "Zojirushi cold brew maker for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Zojirushi",
+		"price": 117.92,
+		"rating": 3.9,
+		"createdAt": "2026-12-10T10:00:00.000Z"
+	},
+	{
+		"id": "prod-242",
+		"title": "Trail Daypack",
+		"description": "Away trail daypack for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Away",
+		"price": 147,
+		"rating": 5,
+		"createdAt": "2026-12-11T10:00:00.000Z"
+	},
+	{
+		"id": "prod-243",
+		"title": "Resistance Band Kit",
+		"description": "TriggerPoint resistance band kit for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "TriggerPoint",
+		"price": 184.99,
+		"rating": 4.7,
+		"createdAt": "2026-12-12T10:00:00.000Z"
+	},
+	{
+		"id": "prod-244",
+		"title": "Smart Thermostat",
+		"description": "Simplehuman smart thermostat for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Simplehuman",
+		"price": 222.98,
+		"rating": 4.4,
+		"createdAt": "2026-12-13T10:00:00.000Z"
+	},
+	{
+		"id": "prod-245",
+		"title": "Retro Low Sneakers",
+		"description": "Saucony retro low sneakers for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Saucony",
+		"price": 260.97,
+		"rating": 4.1,
+		"createdAt": "2026-12-14T10:00:00.000Z"
+	},
+	{
+		"id": "prod-246",
+		"title": "Yoga Align Tank",
+		"description": "Uniqlo yoga align tank for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Uniqlo",
+		"price": 298.96,
+		"rating": 3.8,
+		"createdAt": "2026-12-15T10:00:00.000Z"
+	},
+	{
+		"id": "prod-247",
+		"title": "USB-C DAC Adapter",
+		"description": "Audio-Technica usb-c dac adapter for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Audio-Technica",
+		"price": 336.95,
+		"rating": 4.9,
+		"createdAt": "2026-12-16T10:00:00.000Z"
+	},
+	{
+		"id": "prod-248",
+		"title": "Mesh Wi-Fi Add-On Node",
+		"description": "Razer mesh wi-fi add-on node for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Razer",
+		"price": 374.94,
+		"rating": 4.6,
+		"createdAt": "2026-12-17T10:00:00.000Z"
+	},
+	{
+		"id": "prod-249",
+		"title": "Digital Food Scale",
+		"description": "Le Creuset digital food scale for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Le Creuset",
+		"price": 412.93,
+		"rating": 4.3,
+		"createdAt": "2026-12-18T10:00:00.000Z"
+	},
+	{
+		"id": "prod-250",
+		"title": "Tech Organizer Pouch",
+		"description": "Peak Design tech organizer pouch for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Peak Design",
+		"price": 30.92,
+		"rating": 4,
+		"createdAt": "2026-12-19T10:00:00.000Z"
+	},
+	{
+		"id": "prod-251",
+		"title": "Insulated Sport Bottle",
+		"description": "Hydro Flask insulated sport bottle for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Hydro Flask",
+		"price": 60,
+		"rating": 3.7,
+		"createdAt": "2026-12-20T10:00:00.000Z"
+	},
+	{
+		"id": "prod-252",
+		"title": "Linen Sheet Set",
+		"description": "Coway linen sheet set for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Coway",
+		"price": 97.99,
+		"rating": 4.8,
+		"createdAt": "2026-12-21T10:00:00.000Z"
+	},
+	{
+		"id": "prod-253",
+		"title": "Velocity Road Running Shoes",
+		"description": "Nike velocity road running shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Nike",
+		"price": 135.98,
+		"rating": 4.5,
+		"createdAt": "2026-12-22T10:00:00.000Z"
+	},
+	{
+		"id": "prod-254",
+		"title": "Dri-Fit Training Shirt",
+		"description": "Nike dri-fit training shirt for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Nike",
+		"price": 173.97,
+		"rating": 4.2,
+		"createdAt": "2026-12-23T10:00:00.000Z"
+	},
+	{
+		"id": "prod-255",
+		"title": "Wireless Noise Canceling Headphones",
+		"description": "Sony wireless noise canceling headphones for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Sony",
+		"price": 211.96,
+		"rating": 3.9,
+		"createdAt": "2026-12-24T10:00:00.000Z"
+	},
+	{
+		"id": "prod-256",
+		"title": "Ultra Slim Laptop Sleeve",
+		"description": "Apple ultra slim laptop sleeve for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Apple",
+		"price": 249.95,
+		"rating": 5,
+		"createdAt": "2026-12-25T10:00:00.000Z"
+	},
+	{
+		"id": "prod-257",
+		"title": "Precision Coffee Maker",
+		"description": "Breville precision coffee maker for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Breville",
+		"price": 287.94,
+		"rating": 4.7,
+		"createdAt": "2026-12-26T10:00:00.000Z"
+	},
+	{
+		"id": "prod-258",
+		"title": "Laptop Backpack",
+		"description": "Herschel laptop backpack for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Herschel",
+		"price": 325.93,
+		"rating": 4.4,
+		"createdAt": "2026-12-27T10:00:00.000Z"
+	},
+	{
+		"id": "prod-259",
+		"title": "GPS Running Watch",
+		"description": "Garmin gps running watch for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Garmin",
+		"price": 363.92,
+		"rating": 4.1,
+		"createdAt": "2026-12-28T10:00:00.000Z"
+	},
+	{
+		"id": "prod-260",
+		"title": "Air Purifier",
+		"description": "Dyson air purifier for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Dyson",
+		"price": 393,
+		"rating": 3.8,
+		"createdAt": "2026-12-29T10:00:00.000Z"
+	},
+	{
+		"id": "prod-261",
+		"title": "Trail Grip Running Shoes",
+		"description": "Adidas trail grip running shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Adidas",
+		"price": 430.99,
+		"rating": 4.9,
+		"createdAt": "2026-12-30T10:00:00.000Z"
+	},
+	{
+		"id": "prod-262",
+		"title": "Packable Rain Jacket",
+		"description": "Adidas packable rain jacket for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Adidas",
+		"price": 48.98,
+		"rating": 4.6,
+		"createdAt": "2026-12-31T10:00:00.000Z"
+	},
+	{
+		"id": "prod-263",
+		"title": "Open Ear Sport Earbuds",
+		"description": "Bose open ear sport earbuds for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Bose",
+		"price": 86.97,
+		"rating": 4.3,
+		"createdAt": "2027-01-01T10:00:00.000Z"
+	},
+	{
+		"id": "prod-264",
+		"title": "Wireless Mechanical Keyboard",
+		"description": "Samsung wireless mechanical keyboard for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Samsung",
+		"price": 124.96,
+		"rating": 4,
+		"createdAt": "2027-01-02T10:00:00.000Z"
+	},
+	{
+		"id": "prod-265",
+		"title": "Compact Air Fryer",
+		"description": "Ninja compact air fryer for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Ninja",
+		"price": 162.95,
+		"rating": 3.7,
+		"createdAt": "2027-01-03T10:00:00.000Z"
+	},
+	{
+		"id": "prod-266",
+		"title": "Camera Sling Bag",
+		"description": "Timbuk2 camera sling bag for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Timbuk2",
+		"price": 200.94,
+		"rating": 4.8,
+		"createdAt": "2027-01-04T10:00:00.000Z"
+	},
+	{
+		"id": "prod-267",
+		"title": "Yoga Mat Pro",
+		"description": "Fitbit yoga mat pro for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Fitbit",
+		"price": 238.93,
+		"rating": 4.5,
+		"createdAt": "2027-01-05T10:00:00.000Z"
+	},
+	{
+		"id": "prod-268",
+		"title": "Smart Table Lamp",
+		"description": "Philips Hue smart table lamp for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Philips Hue",
+		"price": 276.92,
+		"rating": 4.2,
+		"createdAt": "2027-01-06T10:00:00.000Z"
+	},
+	{
+		"id": "prod-269",
+		"title": "Court Rally Tennis Shoes",
+		"description": "Brooks court rally tennis shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Brooks",
+		"price": 306,
+		"rating": 3.9,
+		"createdAt": "2027-01-07T10:00:00.000Z"
+	},
+	{
+		"id": "prod-270",
+		"title": "Thermal Running Tights",
+		"description": "Patagonia thermal running tights for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Patagonia",
+		"price": 343.99,
+		"rating": 5,
+		"createdAt": "2027-01-08T10:00:00.000Z"
+	},
+	{
+		"id": "prod-271",
+		"title": "Portable Bluetooth Speaker",
+		"description": "JBL portable bluetooth speaker for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "JBL",
+		"price": 381.98,
+		"rating": 4.7,
+		"createdAt": "2027-01-09T10:00:00.000Z"
+	},
+	{
+		"id": "prod-272",
+		"title": "USB-C Travel Charger",
+		"description": "Logitech usb-c travel charger for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Logitech",
+		"price": 419.97,
+		"rating": 4.4,
+		"createdAt": "2027-01-10T10:00:00.000Z"
+	},
+	{
+		"id": "prod-273",
+		"title": "Pour-Over Kettle",
+		"description": "KitchenAid pour-over kettle for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "KitchenAid",
+		"price": 37.96,
+		"rating": 4.1,
+		"createdAt": "2027-01-11T10:00:00.000Z"
+	},
+	{
+		"id": "prod-274",
+		"title": "Weekender Duffel",
+		"description": "Osprey weekender duffel for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Osprey",
+		"price": 75.95,
+		"rating": 3.8,
+		"createdAt": "2027-01-12T10:00:00.000Z"
+	},
+	{
+		"id": "prod-275",
+		"title": "Adjustable Dumbbell Pair",
+		"description": "Manduka adjustable dumbbell pair for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Manduka",
+		"price": 113.94,
+		"rating": 4.9,
+		"createdAt": "2027-01-13T10:00:00.000Z"
+	},
+	{
+		"id": "prod-276",
+		"title": "Memory Foam Pillow",
+		"description": "Ikea memory foam pillow for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Ikea",
+		"price": 151.93,
+		"rating": 4.6,
+		"createdAt": "2027-01-14T10:00:00.000Z"
+	},
+	{
+		"id": "prod-277",
+		"title": "Daily Trainer Sneakers",
+		"description": "Hoka daily trainer sneakers for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Hoka",
+		"price": 189.92,
+		"rating": 4.3,
+		"createdAt": "2027-01-15T10:00:00.000Z"
+	},
+	{
+		"id": "prod-278",
+		"title": "Stretch Travel Pants",
+		"description": "Lululemon stretch travel pants for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Lululemon",
+		"price": 219,
+		"rating": 4,
+		"createdAt": "2027-01-16T10:00:00.000Z"
+	},
+	{
+		"id": "prod-279",
+		"title": "Studio Monitor Headphones",
+		"description": "Sennheiser studio monitor headphones for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Sennheiser",
+		"price": 256.99,
+		"rating": 3.7,
+		"createdAt": "2027-01-17T10:00:00.000Z"
+	},
+	{
+		"id": "prod-280",
+		"title": "4K Webcam",
+		"description": "Dell 4k webcam for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Dell",
+		"price": 294.98,
+		"rating": 4.8,
+		"createdAt": "2027-01-18T10:00:00.000Z"
+	},
+	{
+		"id": "prod-281",
+		"title": "Stand Mixer Attachment Set",
+		"description": "OXO stand mixer attachment set for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "OXO",
+		"price": 332.97,
+		"rating": 4.5,
+		"createdAt": "2027-01-19T10:00:00.000Z"
+	},
+	{
+		"id": "prod-282",
+		"title": "Packable Tote",
+		"description": "Patagonia packable tote for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Patagonia",
+		"price": 370.96,
+		"rating": 4.2,
+		"createdAt": "2027-01-20T10:00:00.000Z"
+	},
+	{
+		"id": "prod-283",
+		"title": "Massage Gun Mini",
+		"description": "Rogue massage gun mini for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Rogue",
+		"price": 408.95,
+		"rating": 3.9,
+		"createdAt": "2027-01-21T10:00:00.000Z"
+	},
+	{
+		"id": "prod-284",
+		"title": "Cordless Stick Vacuum",
+		"description": "Casper cordless stick vacuum for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Casper",
+		"price": 26.94,
+		"rating": 5,
+		"createdAt": "2027-01-22T10:00:00.000Z"
+	},
+	{
+		"id": "prod-285",
+		"title": "Metcon Studio Training Shoes",
+		"description": "New Balance metcon studio training shoes for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "New Balance",
+		"price": 64.93,
+		"rating": 4.7,
+		"createdAt": "2027-01-23T10:00:00.000Z"
+	},
+	{
+		"id": "prod-286",
+		"title": "Merino Hiking Socks",
+		"description": "Columbia merino hiking socks for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Columbia",
+		"price": 102.92,
+		"rating": 4.4,
+		"createdAt": "2027-01-24T10:00:00.000Z"
+	},
+	{
+		"id": "prod-287",
+		"title": "Sleep Earbuds",
+		"description": "Apple sleep earbuds for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Apple",
+		"price": 132,
+		"rating": 4.1,
+		"createdAt": "2027-01-25T10:00:00.000Z"
+	},
+	{
+		"id": "prod-288",
+		"title": "Portable SSD Drive",
+		"description": "Lenovo portable ssd drive for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Lenovo",
+		"price": 169.99,
+		"rating": 3.8,
+		"createdAt": "2027-01-26T10:00:00.000Z"
+	},
+	{
+		"id": "prod-289",
+		"title": "Smart Rice Cooker",
+		"description": "Cuisinart smart rice cooker for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Cuisinart",
+		"price": 207.98,
+		"rating": 4.9,
+		"createdAt": "2027-01-27T10:00:00.000Z"
+	},
+	{
+		"id": "prod-290",
+		"title": "Rolling Carry-On",
+		"description": "The North Face rolling carry-on for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "The North Face",
+		"price": 245.97,
+		"rating": 4.6,
+		"createdAt": "2027-01-28T10:00:00.000Z"
+	},
+	{
+		"id": "prod-291",
+		"title": "Foam Roller Grid",
+		"description": "Theragun foam roller grid for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Theragun",
+		"price": 283.96,
+		"rating": 4.3,
+		"createdAt": "2027-01-29T10:00:00.000Z"
+	},
+	{
+		"id": "prod-292",
+		"title": "Weighted Blanket",
+		"description": "Brooklinen weighted blanket for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Brooklinen",
+		"price": 321.95,
+		"rating": 4,
+		"createdAt": "2027-01-30T10:00:00.000Z"
+	},
+	{
+		"id": "prod-293",
+		"title": "Recovery Slide Sandals",
+		"description": "Asics recovery slide sandals for footwear fit, intent matching, and accessory noise experiments. Balanced catalog text for boost tuning.",
+		"category": "Shoes",
+		"brand": "Asics",
+		"price": 359.94,
+		"rating": 3.7,
+		"createdAt": "2027-01-31T10:00:00.000Z"
+	},
+	{
+		"id": "prod-294",
+		"title": "Fleece Quarter Zip Pullover",
+		"description": "Under Armour fleece quarter zip pullover for seasonal apparel searches, brand queries, and category filtering. Balanced catalog text for boost tuning.",
+		"category": "Apparel",
+		"brand": "Under Armour",
+		"price": 397.93,
+		"rating": 4.8,
+		"createdAt": "2027-02-01T10:00:00.000Z"
+	},
+	{
+		"id": "prod-295",
+		"title": "Kids Volume Safe Headphones",
+		"description": "Anker kids volume safe headphones for headphone, speaker, and audio accessory relevance checks. Balanced catalog text for boost tuning.",
+		"category": "Audio",
+		"brand": "Anker",
+		"price": 435.92,
+		"rating": 4.5,
+		"createdAt": "2027-02-02T10:00:00.000Z"
+	},
+	{
+		"id": "prod-296",
+		"title": "Tablet Drawing Stylus",
+		"description": "Anker tablet drawing stylus for device, laptop, charger, and desk setup search testing. Balanced catalog text for boost tuning.",
+		"category": "Electronics",
+		"brand": "Anker",
+		"price": 45,
+		"rating": 4.2,
+		"createdAt": "2027-02-03T10:00:00.000Z"
+	},
+	{
+		"id": "prod-297",
+		"title": "Dutch Oven",
+		"description": "Instant Pot dutch oven for coffee, appliance, cookware, and prep tool relevance testing. Balanced catalog text for boost tuning.",
+		"category": "Kitchen",
+		"brand": "Instant Pot",
+		"price": 82.99,
+		"rating": 3.9,
+		"createdAt": "2027-02-04T10:00:00.000Z"
+	},
+	{
+		"id": "prod-298",
+		"title": "Messenger Bag",
+		"description": "Bellroy messenger bag for commute, travel, laptop, and organizer query comparisons. Balanced catalog text for boost tuning.",
+		"category": "Bags",
+		"brand": "Bellroy",
+		"price": 120.98,
+		"rating": 5,
+		"createdAt": "2027-02-05T10:00:00.000Z"
+	},
+	{
+		"id": "prod-299",
+		"title": "Cycling Cadence Sensor",
+		"description": "Peloton cycling cadence sensor for training, recovery, running, and gym equipment search checks. Balanced catalog text for boost tuning.",
+		"category": "Fitness",
+		"brand": "Peloton",
+		"price": 158.97,
+		"rating": 4.7,
+		"createdAt": "2027-02-06T10:00:00.000Z"
+	},
+	{
+		"id": "prod-300",
+		"title": "Motion Sensor Trash Can",
+		"description": "Nest motion sensor trash can for cleaning, lighting, comfort, and smart home query checks. Balanced catalog text for boost tuning.",
+		"category": "Home",
+		"brand": "Nest",
+		"price": 196.96,
+		"rating": 4.4,
+		"createdAt": "2027-02-07T10:00:00.000Z"
 	}
 ]

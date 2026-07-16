@@ -138,7 +138,7 @@ export class OpensearchAPIClient {
 								{
 									multi_match: {
 										query: request.term,
-										fields: ['title^3', 'brand^2', 'category^2', 'description'],
+										fields: ['title', 'brand', 'category', 'description'],
 										type: 'best_fields',
 										operator: 'and',
 										fuzziness: 'AUTO'
