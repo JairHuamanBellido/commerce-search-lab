@@ -25,6 +25,16 @@ type OpenSearchSearchResponse<T> = {
 	};
 };
 
+type OpenSearchSuggestResponse = {
+	suggest?: {
+		did_you_mean?: Array<{
+			options?: Array<{ text?: string; score?: number }>;
+		}>;
+	};
+};
+
+type NormalizedProductSearchRequest = Required<Omit<ProductSearchRequest, 'allowCorrection'>>;
+
 const MAX_SEARCH_TERM_LENGTH = 120;
 const DEFAULT_RESULT_FROM = 0;
 const DEFAULT_RESULT_SIZE = 10;
@@ -66,16 +76,47 @@ export class OpensearchAPIClient {
 
 	static async searchProducts(request: ProductSearchRequest): Promise<ProductSearchResult> {
 		const term = this.normalizeSearchTerm(request.term);
+		const correctedTerm =
+			term && request.allowCorrection !== false ? await this.suggestSearchTerm(term) : null;
+		const effectiveTerm = correctedTerm ?? term;
 		const filters = this.normalizeFilters(request.filters);
 		const sort = this.normalizeSort(request.sort);
 		const from = this.normalizeFrom(request.from);
 		const size = this.normalizeSize(request.size);
 		const response = await this.axiosInstance.post<OpenSearchSearchResponse<Product>>(
 			'/products/_search',
-			this.buildSearchBody({ term, filters, sort, from, size })
+			this.buildSearchBody({ term: effectiveTerm, filters, sort, from, size })
 		);
 
-		return this.toProductSearchResult(response.data);
+		return this.toProductSearchResult(response.data, correctedTerm);
+	}
+
+	private static async suggestSearchTerm(term: string): Promise<string | null> {
+		const response = await this.axiosInstance.post<OpenSearchSuggestResponse>('/products/_search', {
+			size: 0,
+			suggest: {
+				did_you_mean: {
+					text: term,
+					phrase: {
+						field: 'suggest.trigram',
+						size: 1,
+						direct_generator: [
+							{
+								field: 'suggest.trigram',
+								suggest_mode: 'missing',
+								min_word_length: 3
+							}
+						]
+					}
+				}
+			}
+		});
+		const suggestion = response.data.suggest?.did_you_mean?.[0]?.options?.[0]?.text;
+		const normalizedSuggestion = suggestion ? this.normalizeSearchTerm(suggestion) : '';
+
+		return normalizedSuggestion && normalizedSuggestion.toLowerCase() !== term.toLowerCase()
+			? normalizedSuggestion
+			: null;
 	}
 
 	private static normalizeSearchTerm(term: string): string {
@@ -119,7 +160,7 @@ export class OpensearchAPIClient {
 		return Math.min(Math.max(size, 1), 50);
 	}
 
-	private static buildSearchBody(request: Required<ProductSearchRequest>) {
+	private static buildSearchBody(request: NormalizedProductSearchRequest) {
 		const filterClauses = FACET_FIELDS.flatMap((field) => {
 			const values = request.filters[field] ?? [];
 			return values.length > 0 ? [{ terms: { [field]: values } }] : [];
@@ -198,7 +239,8 @@ export class OpensearchAPIClient {
 	}
 
 	private static toProductSearchResult(
-		response: OpenSearchSearchResponse<Product>
+		response: OpenSearchSearchResponse<Product>,
+		correctedTerm: string | null
 	): ProductSearchResult {
 		const products =
 			response.hits?.hits
@@ -211,6 +253,7 @@ export class OpensearchAPIClient {
 		return {
 			products,
 			total,
+			correctedTerm,
 			facets: {
 				brand: response.aggregations?.brand_facet?.buckets ?? [],
 				category: response.aggregations?.category_facet?.buckets ?? []

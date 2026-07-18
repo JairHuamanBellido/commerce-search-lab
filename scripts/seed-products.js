@@ -13,24 +13,29 @@ function buildBulkBody(items) {
 	);
 }
 
-await createProductsIndex({ recreate: true });
+export async function rebuildProductsIndex() {
+	await createProductsIndex({ recreate: true });
 
-const bulkResult = await opensearchRequest('/_bulk?refresh=true', {
-	method: 'POST',
-	headers: { 'content-type': 'application/x-ndjson' },
-	body: buildBulkBody(products)
-});
+	const bulkResult = await opensearchRequest('/_bulk?refresh=true', {
+		method: 'POST',
+		headers: { 'content-type': 'application/x-ndjson' },
+		body: buildBulkBody(products)
+	});
 
-if (bulkResult.errors) {
-	const failedItems = bulkResult.items.filter((item) => item.index?.error);
-	throw new Error(`Bulk insert failed: ${JSON.stringify(failedItems, null, 2)}`);
+	if (bulkResult.errors) {
+		const failedItems = bulkResult.items.filter((item) => item.index?.error);
+		throw new Error(`Bulk insert failed: ${JSON.stringify(failedItems, null, 2)}`);
+	}
+
+	const count = await opensearchRequest(`/${productsIndex}/_count`);
+
+	if (count.count !== products.length) {
+		throw new Error(`Seed count mismatch: expected ${products.length}, got ${count.count}`);
+	}
+
+	console.log(`Seeded ${count.count} products into ${productsIndex}`);
 }
 
-const count = await opensearchRequest(`/${productsIndex}/_count`);
-
-if (count.count !== products.length) {
-	throw new Error(`Seed count mismatch: expected ${products.length}, got ${count.count}`);
+if (import.meta.url === `file://${process.argv[1]}`) {
+	await rebuildProductsIndex();
 }
-
-console.log(`Seeded ${count.count} products into ${productsIndex}`);
-

@@ -25,6 +25,7 @@ export type ProductSortOption = 'relevance' | 'price-asc' | 'price-desc' | 'rati
 export type ProductSearchRequest = {
 	term: string;
 	filters: ProductSearchFilters;
+	allowCorrection?: boolean;
 	sort?: ProductSortOption;
 	from?: number;
 	size?: number;
@@ -34,4 +35,5 @@ export type ProductSearchResult = {
 	products: Product[];
 	total: number;
 	facets: ProductFacets;
+	correctedTerm: string | null;
 };

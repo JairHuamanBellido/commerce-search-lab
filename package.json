@@ -10,6 +10,7 @@
 		"prepare": "svelte-kit sync || echo ''",
 		"search:create-index": "node scripts/create-products-index.js",
 		"search:seed": "node scripts/seed-products.js",
+		"search:rebuild": "node scripts/rebuild-products-index.js",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",

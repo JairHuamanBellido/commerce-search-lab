@@ -59,6 +59,12 @@ Seed 100 products:
 pnpm search:seed
 ```
 
+Rebuild index with did-you-mean mapping and seed data:
+
+```bash
+pnpm search:rebuild
+```
+
 Run the app:
 
 ```bash

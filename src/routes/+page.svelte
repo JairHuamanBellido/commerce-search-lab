@@ -19,6 +19,8 @@
 	let products = $state<Product[]>([]);
 	let facets = $state<ProductFacets>({ brand: [], category: [] });
 	let total = $state(0);
+	let correctedTerm = $state<string | null>(null);
+	let allowCorrection = $state(true);
 	let currentPage = $state(1);
 	let isLoading = $state(false);
 	let errorMessage = $state<string | null>(null);
@@ -43,6 +45,7 @@
 			const result = await OpensearchAPIClient.searchProducts({
 				term: searchTerm,
 				filters: selectedFilters,
+				allowCorrection,
 				sort: selectedSort,
 				from: (currentPage - 1) * pageSize,
 				size: pageSize
@@ -55,6 +58,7 @@
 			products = result.products;
 			facets = result.facets;
 			total = result.total;
+			correctedTerm = result.correctedTerm;
 		} catch (error) {
 			if (requestId !== latestRequestId) {
 				return;
@@ -63,6 +67,7 @@
 			products = [];
 			facets = { brand: [], category: [] };
 			total = 0;
+			correctedTerm = null;
 			errorMessage =
 				error instanceof Error
 					? error.message
@@ -76,6 +81,15 @@
 
 	function handleSearch(term: string) {
 		searchTerm = normalizeSearchTerm(term);
+		allowCorrection = true;
+		correctedTerm = null;
+		currentPage = 1;
+		void searchProducts();
+	}
+
+	function handleSearchOriginal() {
+		allowCorrection = false;
+		correctedTerm = null;
 		currentPage = 1;
 		void searchProducts();
 	}
@@ -182,12 +196,29 @@
 			/>
 
 			<div class="min-w-0 space-y-4">
+				{#if correctedTerm}
+					<div class="border-l-2 border-slate-950 pl-3 text-sm text-slate-700" aria-live="polite">
+						<p>
+							Showing results for
+							<span class="font-semibold text-slate-950">"{correctedTerm}"</span>
+						</p>
+						<button
+							class="mt-1 font-medium text-slate-700 underline decoration-slate-400 underline-offset-4 hover:text-slate-950 disabled:cursor-not-allowed disabled:text-slate-400"
+							type="button"
+							disabled={isLoading}
+							onclick={handleSearchOriginal}
+						>
+							Search instead for "{searchTerm}"
+						</button>
+					</div>
+				{/if}
+
 				<div class="flex flex-wrap items-center justify-between gap-3">
 					<p class="text-sm text-slate-600">
 						<span class="font-semibold text-slate-950">{total}</span>
 						{total === 1 ? 'product' : 'products'}
 						{#if searchTerm}
-							for <span class="font-semibold text-slate-950">"{searchTerm}"</span>
+							for <span class="font-semibold text-slate-950">"{correctedTerm ?? searchTerm}"</span>
 						{/if}
 					</p>
 					{#if isLoading}
