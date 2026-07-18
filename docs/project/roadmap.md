@@ -77,10 +77,10 @@ In progress:
 
 ### 5. OpenSearch IR Learning
 
-- [ ] Typo behavior is tested with fuzziness enabled.
-- [ ] Analyzer options are documented.
-- [ ] Synonym candidates are documented.
-- [ ] Explain API remains optional for deeper debugging.
+- [x] Typo behavior is tested with fuzziness enabled.
+- [x] Analyzer options are documented.
+- [x] Synonym candidates are documented.
+- [x] Explain API remains optional for deeper debugging.
 
 ## Milestone 1 Checklist
 

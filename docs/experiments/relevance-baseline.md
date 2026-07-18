@@ -105,38 +105,38 @@ Increasing the `brand` field boost will rank products with an exact brand match 
 #### Current Query Fields
 
 ```ts
-['title', 'brand', 'category', 'description']
+['title', 'brand', 'category', 'description'];
 ```
 
 #### Before
 
 Results recorded from the SvelteKit app before changing boosts.
 
-| Rank | Product | Brand | Category | Score | Note |
-| ---- | ------- | ----- | -------- | ----- | ---- |
-| 1 | Nike Travel Pants | Nike | Clothing | 1.7887292 | Exact Nike brand product ranks first. |
-| 2 | Nike pins for shoes | PinLab | Accessories | 1.7360619 | Weak result: title mentions Nike, but product is an accessory from another brand. |
-| 3 | Nike Metcon Training Shoes | Nike | Shoes | 1.5922456 | Exact Nike brand product. |
-| 4 | Nike Marathon Poster Print | PosterMile | Home | 1.5922456 | Weak result: title mentions Nike, but product is a poster from another brand. |
-| 5 | Velocity Road Running Shoes | Nike | Shoes | 1.4881318 | Exact Nike brand product ranks below title-only Nike mentions. |
+| Rank | Product                     | Brand      | Category    | Score     | Note                                                                              |
+| ---- | --------------------------- | ---------- | ----------- | --------- | --------------------------------------------------------------------------------- |
+| 1    | Nike Travel Pants           | Nike       | Clothing    | 1.7887292 | Exact Nike brand product ranks first.                                             |
+| 2    | Nike pins for shoes         | PinLab     | Accessories | 1.7360619 | Weak result: title mentions Nike, but product is an accessory from another brand. |
+| 3    | Nike Metcon Training Shoes  | Nike       | Shoes       | 1.5922456 | Exact Nike brand product.                                                         |
+| 4    | Nike Marathon Poster Print  | PosterMile | Home        | 1.5922456 | Weak result: title mentions Nike, but product is a poster from another brand.     |
+| 5    | Velocity Road Running Shoes | Nike       | Shoes       | 1.4881318 | Exact Nike brand product ranks below title-only Nike mentions.                    |
 
 #### Change Tested
 
 ```ts
-['title^2', 'brand^4', 'category^1.5', 'description^0.5']
+['title^2', 'brand^4', 'category^1.5', 'description^0.5'];
 ```
 
 #### After
 
 Results recorded from the SvelteKit app after changing boosts.
 
-| Rank | Product | Brand | Category | Score | Note |
-| ---- | ------- | ----- | -------- | ----- | ---- |
-| 1 | Nike Pegasus Road Running Shoes | Nike | Shoes | 4.576002 | Exact Nike brand product moved into top results. |
-| 2 | Nike Dri-FIT Running Shirt | Nike | Clothing | 4.576002 | Exact Nike brand product. |
-| 3 | Nike Metcon Training Shoes | Nike | Shoes | 4.576002 | Exact Nike brand product. |
-| 4 | Nike Travel Pants | Nike | Clothing | 4.576002 | Exact Nike brand product. |
-| 5 | Velocity Road Running Shoes | Nike | Shoes | 4.576002 | Exact Nike brand product now outranks title-only Nike mentions. |
+| Rank | Product                         | Brand | Category | Score    | Note                                                            |
+| ---- | ------------------------------- | ----- | -------- | -------- | --------------------------------------------------------------- |
+| 1    | Nike Pegasus Road Running Shoes | Nike  | Shoes    | 4.576002 | Exact Nike brand product moved into top results.                |
+| 2    | Nike Dri-FIT Running Shirt      | Nike  | Clothing | 4.576002 | Exact Nike brand product.                                       |
+| 3    | Nike Metcon Training Shoes      | Nike  | Shoes    | 4.576002 | Exact Nike brand product.                                       |
+| 4    | Nike Travel Pants               | Nike  | Clothing | 4.576002 | Exact Nike brand product.                                       |
+| 5    | Velocity Road Running Shoes     | Nike  | Shoes    | 4.576002 | Exact Nike brand product now outranks title-only Nike mentions. |
 
 #### Result
 
@@ -162,3 +162,26 @@ Reason:
 - Test the same boost against at least two other brand queries.
 - Check whether title-intent queries still work, such as `coffee maker`, `wireless headphones`, and `laptop backpack`.
 - Check whether tricky products still behave reasonably, such as `Nike pins for shoes`, `Apple Kitchen Prep Slicer`, and `Bose Quiet Desk Fan`.
+
+## Typo Behavior Checks
+
+Recorded after running `pnpm search:rebuild` against local OpenSearch. These checks use the app's current text query shape: `multi_match` with `operator: 'and'` and `fuzziness: 'AUTO'`. The app also asks the phrase suggester for a correction through the `suggest.trigram` field before running the final search.
+
+| Query                | Fuzzy Top Result                    | Total Fuzzy Results | Phrase Suggestion     | Pass/Fail Note                                                                                     |
+| -------------------- | ----------------------------------- | ------------------- | --------------------- | -------------------------------------------------------------------------------------------------- |
+| `nik shoes`          | Nike Metcon Training Shoes          | 6                   | `nike shoes`          | PASS: fuzzy matching recovers Nike shoe intent, but accessory/title-only matches can still appear. |
+| `cofee maker`        | Precision Coffee Maker              | 8                   | `coffee maker`        | PASS: fuzzy matching recovers coffee maker intent and suggestion gives the clean query.            |
+| `wireles headphones` | Wireless Noise Canceling Headphones | 5                   | `wireless headphones` | PASS: fuzzy matching recovers wireless headphone intent and expected Sony/Bose results appear.     |
+
+### Typo Ranking Notes
+
+- `fuzziness: 'AUTO'` is useful for one-character or short edit-distance mistakes in commerce queries.
+- `operator: 'and'` keeps typo results precise because every query term must still match after fuzzy expansion.
+- Fuzziness does not understand commerce intent by itself. For `nik shoes`, title-only products such as `Nike pins for shoes` can compete with real shoes.
+- Phrase suggestion is a good UI helper for typo recovery, but it should stay separate from synonym expansion.
+
+## Analyzer And Synonym Notes
+
+Analyzer and synonym candidates are drafted in `docs/adr/0002-analyzer-and-synonym-candidates.md`.
+
+Explain API remains optional for this milestone. Use it later when a specific result needs score-level debugging after manual app review has already identified a ranking issue.
